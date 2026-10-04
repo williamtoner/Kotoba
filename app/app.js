@@ -190,12 +190,12 @@ function renderReview() {
   else if (type === 'enjp') html += '<div class="big en">' + esc((w.meanings || []).join(' / ')) + '</div>' + (w.hint ? '<div class="sub">' + esc(w.hint) + '</div>' : '');
   else {
     html += '<button class="playbtn" id="play" aria-label="Play audio">&#9654;</button>';
-    if (!w.audio && voiceChecked && !voice) html += '<div class="novoice">No recording yet and no Japanese voice on this device, so here is the kana.</div><div class="big jp">' + esc(w.kana) + '</div>';
-    else html += '<div class="sub">tap to hear it' + (w.audio ? '' : ' (device voice)') + '</div>';
+    if (!w.audio && voiceChecked && !voice) html += '<div class="novoice">No recording yet and no Japanese voice on this device, so here is the English instead.</div><div class="big en">' + esc((w.meanings || []).join(' / ')) + '</div>';
+    else html += '<div class="sub">write what you hear' + (w.audio ? '' : ' (device voice)') + '</div>';
   }
   html += '</div>';
   if (phase === 'ask') {
-    const jp = type === 'enjp';
+    const jp = type !== 'jpen';
     html += '<form class="answer" id="ansform"><input id="ans" ' + (jp ? 'class="jp" lang="ja"' : 'lang="en"') + ' placeholder="' + (jp ? 'かな or romaji' : 'type the English') + '" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done"><button class="btn primary" type="submit">Check</button></form>';
   } else {
     html += '<div class="verdict ' + (verdict.ok ? 'ok' : 'no') + '"><span class="lead">' + (verdict.ok ? 'Correct' : 'Not quite') + '</span>' + (verdict.note ? '<span>' + esc(verdict.note) + '</span>' : '') + '<span class="typed">you typed: ' + (esc(verdict.typed) || '(nothing)') + '</span></div>';
@@ -223,6 +223,9 @@ function checkAnswer(typed) {
   if (type === 'enjp') {
     ok = G.kanaMatches(typed, w);
     if (!ok) { const syn = G.synonymHit(typed, w, activeWords()); if (syn) { ok = true; note = syn.kana + ' also means this. The card wanted ' + w.kana + '.'; } }
+  } else if (type === 'audio') {
+    ok = G.kanaMatches(typed, w);
+    if (!ok && G.enMatches(typed, w.meanings)) { ok = true; note = 'That is the meaning. This card asks you to write the Japanese you heard: ' + w.kana + '.'; }
   } else ok = G.enMatches(typed, w.meanings);
   verdict = { ok, typed, note }; phase = 'reveal';
   if (type !== 'audio' && progress.settings.autoplay) speakWord(w);
@@ -230,7 +233,7 @@ function checkAnswer(typed) {
 }
 function applyGrade(g) {
   const w = words[current.wid]; const type = current.type; const now = Date.now();
-  recent.push(S.cardKey(w.id, type)); if (recent.length > 4) recent.shift();
+  recent.push(w.id); if (recent.length > S.RECENT_WORDS) recent.shift();
   if (current.practice) { current = null; phase = 'ask'; verdict = null; render(); return; }
   progress.cards[S.cardKey(w.id, type)] = S.gradeCard(cardOf(w.id, type), g, now, 0.9);
   session.answered++; if (g > 1) session.correct++; else session.missed[w.id] = true;

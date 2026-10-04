@@ -8,7 +8,8 @@
  */
 
 export const TYPES = ['jpen', 'enjp', 'audio'];
-export const TYPE_LABEL = { jpen: 'Read it', enjp: 'Say it in Japanese', audio: 'Listen' };
+export const TYPE_LABEL = { jpen: 'Read it', enjp: 'Say it in Japanese', audio: 'Listen and write' };
+export const RECENT_WORDS = 5;   // a word is not shown again within this many cards
 export const LEARN_MS = 10 * 60 * 1000;   // a failed card comes back after ten minutes
 export const AHEAD_MS = 20 * 60 * 1000;   // learning cards due within this are shown early when nothing else is due
 export const DAY = 86400000;
@@ -68,10 +69,13 @@ export const cardKey = (wid, type) => wid + '/' + type;
 /**
  * Pick the next card. `words` is the live word map (id -> word, suspended
  * ones already removed), `cards` the progress card map keyed by cardKey.
- * `newBudget` is Infinity when there is no daily cap. `recent` is a list of
- * card keys shown in the last few turns, to avoid immediate repeats.
+ * `newBudget` is Infinity when there is no daily cap. `recentWords` is the
+ * list of word ids shown in the last few turns: a word's other cards wait
+ * until it has dropped out of that list, so siblings never run back to back.
+ * New cards are introduced in rounds (every word's reading card, then every
+ * word's production card, then listening) rather than word by word.
  */
-export function pickNext(words, cards, now, newBudget, recent) {
+export function pickNext(words, cards, now, newBudget, recentWords) {
   const due = [], fresh = [], ahead = [];
   for (const id in words) {
     const w = words[id];
@@ -82,13 +86,19 @@ export function pickNext(words, cards, now, newBudget, recent) {
       else if ((c.state === 'learning' || c.state === 'relearning') && c.due <= now + AHEAD_MS) ahead.push({ wid: id, type: ty, due: c.due });
     }
   }
-  const notRecent = (x) => !(recent || []).includes(cardKey(x.wid, x.type));
+  const seen = recentWords || [];
+  const notRecent = (x) => !seen.includes(x.wid);
   due.sort((a, b) => a.due - b.due);
   let pool = due.filter(notRecent); if (!pool.length) pool = due;
   if (pool.length) return pool[0];
-  if (newBudget > 0 && fresh.length) { fresh.sort((a, b) => (a.added - b.added) || (a.o - b.o)); return fresh[0]; }
+  if (newBudget > 0 && fresh.length) {
+    fresh.sort((a, b) => (a.o - b.o) || (a.added - b.added));
+    const spaced = fresh.filter(notRecent);
+    return (spaced.length ? spaced : fresh)[0];
+  }
   ahead.sort((a, b) => a.due - b.due);
-  if (ahead.length) return ahead[0];
+  let apool = ahead.filter(notRecent); if (!apool.length) apool = ahead;
+  if (apool.length) return apool[0];
   return null;
 }
 

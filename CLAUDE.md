@@ -57,5 +57,6 @@ tests/run.mjs   node tests for the pure modules
 - Bump `CACHE_VERSION` in `app/sw.js` when shell files change in a way that
   must invalidate old caches.
 - Audio paths in `words.json` are relative to `app/` (`voices/<id>.mp3`).
+- Listening cards are dictation (type the kana or romaji you heard). Cards of one word are kept at least RECENT_WORDS apart and new cards are introduced in rounds by type (see pickNext in srs.js).
 - The learner can type kana or romaji; grading rules are in `app/grading.js`
   and have tests. Add a test when you change them.
