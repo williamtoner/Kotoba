@@ -1,0 +1,6 @@
+{
+  "name": "kotoba-app",
+  "private": true,
+  "type": "module",
+  "description": "Marks app/*.js as ES modules so Node can import them in tests. The app itself has no build step and no dependencies."
+}

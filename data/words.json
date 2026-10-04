@@ -1,0 +1,1395 @@
+{
+  "version": 1,
+  "words": [
+    {
+      "id": "seed001",
+      "kana": "おはよう",
+      "kanji": "",
+      "romaji": "ohayō",
+      "kanaAlts": [],
+      "meanings": [
+        "good morning"
+      ],
+      "hint": "casual",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371151,
+      "example": {
+        "en": "Morning, Yuki.",
+        "ja": "おはよう、ゆきちゃん。",
+        "jaKanji": "おはよう、ゆきちゃん。",
+        "romaji": "Ohayō, Yuki-chan."
+      },
+      "audio": "voices/seed001.mp3",
+      "exampleAudio": "voices/seed001-ex.mp3"
+    },
+    {
+      "id": "seed002",
+      "kana": "おはようございます",
+      "kanji": "",
+      "romaji": "ohayō gozaimasu",
+      "kanaAlts": [],
+      "meanings": [
+        "good morning"
+      ],
+      "hint": "polite",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371152,
+      "example": {
+        "en": "Good morning, teacher.",
+        "ja": "せんせい、おはようございます。",
+        "jaKanji": "先生、おはようございます。",
+        "romaji": "Sensei, ohayō gozaimasu."
+      },
+      "audio": "voices/seed002.mp3",
+      "exampleAudio": "voices/seed002-ex.mp3"
+    },
+    {
+      "id": "seed003",
+      "kana": "こんにちは",
+      "kanji": "",
+      "romaji": "konnichiwa",
+      "kanaAlts": [],
+      "meanings": [
+        "good afternoon",
+        "hello"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371153,
+      "example": {
+        "en": "Hello, Mr Tanaka.",
+        "ja": "こんにちは、たなかさん。",
+        "jaKanji": "こんにちは、田中さん。",
+        "romaji": "Konnichiwa, Tanaka-san."
+      },
+      "audio": "voices/seed003.mp3",
+      "exampleAudio": "voices/seed003-ex.mp3"
+    },
+    {
+      "id": "seed004",
+      "kana": "こんばんは",
+      "kanji": "",
+      "romaji": "kombanwa",
+      "kanaAlts": [],
+      "meanings": [
+        "good evening"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371154,
+      "example": {
+        "en": "Good evening. It's a nice night, isn't it?",
+        "ja": "こんばんは。いい よる ですね。",
+        "jaKanji": "こんばんは。いい夜ですね。",
+        "romaji": "Kombanwa. Ii yoru desu ne."
+      },
+      "audio": "voices/seed004.mp3",
+      "exampleAudio": "voices/seed004-ex.mp3"
+    },
+    {
+      "id": "seed005",
+      "kana": "おやすみなさい",
+      "kanji": "",
+      "romaji": "oyasuminasai",
+      "kanaAlts": [
+        "おやすみ"
+      ],
+      "meanings": [
+        "good night"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371155,
+      "example": {
+        "en": "I'm going to bed now. Good night.",
+        "ja": "もう ねます。おやすみなさい。",
+        "jaKanji": "もう寝ます。おやすみなさい。",
+        "romaji": "Mō nemasu. Oyasuminasai."
+      },
+      "audio": "voices/seed005.mp3",
+      "exampleAudio": "voices/seed005-ex.mp3"
+    },
+    {
+      "id": "seed006",
+      "kana": "さようなら",
+      "kanji": "",
+      "romaji": "sayōnara",
+      "kanaAlts": [],
+      "meanings": [
+        "goodbye",
+        "bye"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371156,
+      "example": {
+        "en": "Goodbye. See you tomorrow.",
+        "ja": "さようなら。また あした。",
+        "jaKanji": "さようなら。また明日。",
+        "romaji": "Sayōnara. Mata ashita."
+      },
+      "audio": "voices/seed006.mp3",
+      "exampleAudio": "voices/seed006-ex.mp3"
+    },
+    {
+      "id": "seed007",
+      "kana": "ありがとう",
+      "kanji": "",
+      "romaji": "arigatō",
+      "kanaAlts": [],
+      "meanings": [
+        "thank you",
+        "thanks"
+      ],
+      "hint": "casual",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371157,
+      "example": {
+        "en": "Thanks for helping me.",
+        "ja": "てつだって くれて ありがとう。",
+        "jaKanji": "手伝ってくれてありがとう。",
+        "romaji": "Tetsudatte kurete arigatō."
+      },
+      "audio": "voices/seed007.mp3",
+      "exampleAudio": "voices/seed007-ex.mp3"
+    },
+    {
+      "id": "seed008",
+      "kana": "ありがとうございます",
+      "kanji": "",
+      "romaji": "arigatō gozaimasu",
+      "kanaAlts": [],
+      "meanings": [
+        "thank you"
+      ],
+      "hint": "polite",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371158,
+      "example": {
+        "en": "Thank you for the present.",
+        "ja": "プレゼント、ありがとうございます。",
+        "jaKanji": "プレゼント、ありがとうございます。",
+        "romaji": "Purezento, arigatō gozaimasu."
+      },
+      "audio": "voices/seed008.mp3",
+      "exampleAudio": "voices/seed008-ex.mp3"
+    },
+    {
+      "id": "seed009",
+      "kana": "すみません",
+      "kanji": "",
+      "romaji": "sumimasen",
+      "kanaAlts": [],
+      "meanings": [
+        "sorry",
+        "excuse me",
+        "thank you"
+      ],
+      "hint": "all-purpose",
+      "note": "An all-purpose phrase used when calling out to a person, apologising, or thanking someone.",
+      "source": "4",
+      "addedAt": 1790778371159,
+      "example": {
+        "en": "Excuse me, where is the station?",
+        "ja": "すみません、えきは どこ ですか。",
+        "jaKanji": "すみません、駅はどこですか。",
+        "romaji": "Sumimasen, eki wa doko desu ka."
+      },
+      "audio": "voices/seed009.mp3",
+      "exampleAudio": "voices/seed009-ex.mp3"
+    },
+    {
+      "id": "seed010",
+      "kana": "ごめんなさい",
+      "kanji": "",
+      "romaji": "gomen nasai",
+      "kanaAlts": [
+        "ごめん"
+      ],
+      "meanings": [
+        "sorry",
+        "I'm sorry"
+      ],
+      "hint": "an apology",
+      "note": "",
+      "source": "4",
+      "addedAt": 1790778371160,
+      "example": {
+        "en": "Sorry I'm late.",
+        "ja": "おくれて ごめんなさい。",
+        "jaKanji": "遅れてごめんなさい。",
+        "romaji": "Okurete gomen nasai."
+      },
+      "audio": "voices/seed010.mp3",
+      "exampleAudio": "voices/seed010-ex.mp3"
+    },
+    {
+      "id": "seed011",
+      "kana": "どういたしまして",
+      "kanji": "",
+      "romaji": "dōitashimashite",
+      "kanaAlts": [],
+      "meanings": [
+        "you're welcome",
+        "it's my pleasure",
+        "my pleasure"
+      ],
+      "hint": "",
+      "note": "Reply to thank you.",
+      "source": "4",
+      "addedAt": 1790778371161,
+      "example": {
+        "en": "\"Thank you.\" \"You're welcome.\"",
+        "ja": "「ありがとう。」「どういたしまして。」",
+        "jaKanji": "「ありがとう。」「どういたしまして。」",
+        "romaji": "\"Arigatō.\" \"Dōitashimashite.\""
+      },
+      "audio": "voices/seed011.mp3",
+      "exampleAudio": "voices/seed011-ex.mp3"
+    },
+    {
+      "id": "seed012",
+      "kana": "いってらっしゃい",
+      "kanji": "",
+      "romaji": "itterasshai",
+      "kanaAlts": [],
+      "meanings": [
+        "take care",
+        "see you soon",
+        "have a good day"
+      ],
+      "hint": "said by the person staying, to someone leaving",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371162,
+      "example": {
+        "en": "Take care. See you later.",
+        "ja": "きを つけて。いってらっしゃい。",
+        "jaKanji": "気をつけて。いってらっしゃい。",
+        "romaji": "Ki o tsukete. Itterasshai."
+      },
+      "audio": "voices/seed012.mp3",
+      "exampleAudio": "voices/seed012-ex.mp3"
+    },
+    {
+      "id": "seed013",
+      "kana": "いってきます",
+      "kanji": "",
+      "romaji": "ittekimasu",
+      "kanaAlts": [],
+      "meanings": [
+        "I'm off",
+        "see you later",
+        "I'm leaving"
+      ],
+      "hint": "said by the person leaving home",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371163,
+      "example": {
+        "en": "Right, I'm off.",
+        "ja": "じゃあ、いってきます。",
+        "jaKanji": "じゃあ、いってきます。",
+        "romaji": "Jā, ittekimasu."
+      },
+      "audio": "voices/seed013.mp3",
+      "exampleAudio": "voices/seed013-ex.mp3"
+    },
+    {
+      "id": "seed014",
+      "kana": "ただいま",
+      "kanji": "",
+      "romaji": "tadaima",
+      "kanaAlts": [],
+      "meanings": [
+        "I'm home",
+        "I'm back"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371164,
+      "example": {
+        "en": "I'm home. I'm hungry.",
+        "ja": "ただいま。おなか すいた。",
+        "jaKanji": "ただいま。お腹すいた。",
+        "romaji": "Tadaima. Onaka suita."
+      },
+      "audio": "voices/seed014.mp3",
+      "exampleAudio": "voices/seed014-ex.mp3"
+    },
+    {
+      "id": "seed015",
+      "kana": "おかえりなさい",
+      "kanji": "",
+      "romaji": "okaerinasai",
+      "kanaAlts": [
+        "おかえり"
+      ],
+      "meanings": [
+        "welcome back",
+        "welcome home"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371165,
+      "example": {
+        "en": "Welcome back. You must be tired.",
+        "ja": "おかえりなさい。おつかれさま。",
+        "jaKanji": "おかえりなさい。お疲れさま。",
+        "romaji": "Okaerinasai. Otsukaresama."
+      },
+      "audio": "voices/seed015.mp3",
+      "exampleAudio": "voices/seed015-ex.mp3"
+    },
+    {
+      "id": "seed016",
+      "kana": "いただきます",
+      "kanji": "",
+      "romaji": "itadakimasu",
+      "kanaAlts": [],
+      "meanings": [
+        "let's eat",
+        "thanks for the food",
+        "bon appetit"
+      ],
+      "hint": "said before eating",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371166,
+      "example": {
+        "en": "Looks delicious. Let's eat.",
+        "ja": "おいしそう。いただきます。",
+        "jaKanji": "美味しそう。いただきます。",
+        "romaji": "Oishisō. Itadakimasu."
+      },
+      "audio": "voices/seed016.mp3",
+      "exampleAudio": "voices/seed016-ex.mp3"
+    },
+    {
+      "id": "seed017",
+      "kana": "ごちそうさまでした",
+      "kanji": "",
+      "romaji": "gochisōsama deshita",
+      "kanaAlts": [
+        "ごちそうさま"
+      ],
+      "meanings": [
+        "thank you for the meal",
+        "that was delicious"
+      ],
+      "hint": "said after eating",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371167,
+      "example": {
+        "en": "Thank you for the meal. It was delicious.",
+        "ja": "ごちそうさまでした。おいしかった です。",
+        "jaKanji": "ごちそうさまでした。美味しかったです。",
+        "romaji": "Gochisōsama deshita. Oishikatta desu."
+      },
+      "audio": "voices/seed017.mp3",
+      "exampleAudio": "voices/seed017-ex.mp3"
+    },
+    {
+      "id": "seed018",
+      "kana": "はじめまして",
+      "kanji": "",
+      "romaji": "hajimemashite",
+      "kanaAlts": [],
+      "meanings": [
+        "how do you do",
+        "nice to meet you"
+      ],
+      "hint": "the first thing you say on meeting someone",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371168,
+      "example": {
+        "en": "How do you do. I'm William.",
+        "ja": "はじめまして。ウィリアム です。",
+        "jaKanji": "はじめまして。ウィリアムです。",
+        "romaji": "Hajimemashite. Wiriamu desu."
+      },
+      "audio": "voices/seed018.mp3",
+      "exampleAudio": "voices/seed018-ex.mp3"
+    },
+    {
+      "id": "seed019",
+      "kana": "どうぞよろしく",
+      "kanji": "",
+      "romaji": "dōzo yoroshiku",
+      "kanaAlts": [
+        "よろしく"
+      ],
+      "meanings": [
+        "nice to meet you",
+        "please treat me well",
+        "pleased to meet you"
+      ],
+      "hint": "closing your self-introduction",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371169,
+      "example": {
+        "en": "I'm William. Nice to meet you.",
+        "ja": "ウィリアム です。どうぞ よろしく。",
+        "jaKanji": "ウィリアムです。どうぞよろしく。",
+        "romaji": "Wiriamu desu. Dōzo yoroshiku."
+      },
+      "audio": "voices/seed019.mp3",
+      "exampleAudio": "voices/seed019-ex.mp3"
+    },
+    {
+      "id": "seed020",
+      "kana": "こちらこそどうぞよろしく",
+      "kanji": "",
+      "romaji": "kochirakoso dōzo yoroshiku",
+      "kanaAlts": [
+        "こちらこそ"
+      ],
+      "meanings": [
+        "the pleasure is mine",
+        "likewise, nice to meet you"
+      ],
+      "hint": "replying to dōzo yoroshiku",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371170,
+      "example": {
+        "en": "The pleasure is mine.",
+        "ja": "こちらこそ、どうぞ よろしく。",
+        "jaKanji": "こちらこそ、どうぞよろしく。",
+        "romaji": "Kochirakoso, dōzo yoroshiku."
+      },
+      "audio": "voices/seed020.mp3",
+      "exampleAudio": "voices/seed020-ex.mp3"
+    },
+    {
+      "id": "seed021",
+      "kana": "またね",
+      "kanji": "",
+      "romaji": "mata ne",
+      "kanaAlts": [],
+      "meanings": [
+        "see you later",
+        "see you"
+      ],
+      "hint": "casual",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371171,
+      "example": {
+        "en": "Well then, see you.",
+        "ja": "じゃあ、またね。",
+        "jaKanji": "じゃあ、またね。",
+        "romaji": "Jā, mata ne."
+      },
+      "audio": "voices/seed021.mp3",
+      "exampleAudio": "voices/seed021-ex.mp3"
+    },
+    {
+      "id": "seed022",
+      "kana": "おげんきですか",
+      "kanji": "お元気ですか",
+      "romaji": "(o)genki desu ka",
+      "kanaAlts": [
+        "げんきですか"
+      ],
+      "meanings": [
+        "how are you"
+      ],
+      "hint": "",
+      "note": "Typically not asked to people seen on a daily basis.",
+      "source": "5",
+      "addedAt": 1790778371172,
+      "example": {
+        "en": "How are you, Mr Tanaka?",
+        "ja": "たなかさん、おげんき ですか。",
+        "jaKanji": "田中さん、お元気ですか。",
+        "romaji": "Tanaka-san, ogenki desu ka."
+      },
+      "audio": "voices/seed022.mp3",
+      "exampleAudio": "voices/seed022-ex.mp3"
+    },
+    {
+      "id": "seed023",
+      "kana": "げんきです",
+      "kanji": "元気です",
+      "romaji": "genki desu",
+      "kanaAlts": [],
+      "meanings": [
+        "I'm fine",
+        "I'm well"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371173,
+      "example": {
+        "en": "Yes, I'm fine.",
+        "ja": "はい、げんき です。",
+        "jaKanji": "はい、元気です。",
+        "romaji": "Hai, genki desu."
+      },
+      "audio": "voices/seed023.mp3",
+      "exampleAudio": "voices/seed023-ex.mp3"
+    },
+    {
+      "id": "seed024",
+      "kana": "がんばってください",
+      "kanji": "",
+      "romaji": "gambatte (kudasai)",
+      "kanaAlts": [
+        "がんばって"
+      ],
+      "meanings": [
+        "do your best",
+        "good luck",
+        "break a leg"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371174,
+      "example": {
+        "en": "Good luck with the exam.",
+        "ja": "しけん、がんばって ください。",
+        "jaKanji": "試験、頑張ってください。",
+        "romaji": "Shiken, gambatte kudasai."
+      },
+      "audio": "voices/seed024.mp3",
+      "exampleAudio": "voices/seed024-ex.mp3"
+    },
+    {
+      "id": "seed025",
+      "kana": "どうぞ",
+      "kanji": "",
+      "romaji": "dōzo",
+      "kanaAlts": [],
+      "meanings": [
+        "go ahead",
+        "please",
+        "here you are"
+      ],
+      "hint": "offering something",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371175,
+      "example": {
+        "en": "Please, have a seat.",
+        "ja": "どうぞ、すわって ください。",
+        "jaKanji": "どうぞ、座ってください。",
+        "romaji": "Dōzo, suwatte kudasai."
+      },
+      "audio": "voices/seed025.mp3",
+      "exampleAudio": "voices/seed025-ex.mp3"
+    },
+    {
+      "id": "seed026",
+      "kana": "すごい",
+      "kanji": "",
+      "romaji": "sugoi",
+      "kanaAlts": [],
+      "meanings": [
+        "awesome",
+        "amazing",
+        "great"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371176,
+      "example": {
+        "en": "Wow! You're good at it.",
+        "ja": "すごい！じょうず ですね。",
+        "jaKanji": "すごい！上手ですね。",
+        "romaji": "Sugoi! Jōzu desu ne."
+      },
+      "audio": "voices/seed026.mp3",
+      "exampleAudio": "voices/seed026-ex.mp3"
+    },
+    {
+      "id": "seed027",
+      "kana": "ほんとう",
+      "kanji": "本当",
+      "romaji": "hontō",
+      "kanaAlts": [],
+      "meanings": [
+        "really",
+        "true"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371177,
+      "example": {
+        "en": "Really?",
+        "ja": "ほんとう ですか。",
+        "jaKanji": "本当ですか。",
+        "romaji": "Hontō desu ka."
+      },
+      "audio": "voices/seed027.mp3",
+      "exampleAudio": "voices/seed027-ex.mp3"
+    },
+    {
+      "id": "seed028",
+      "kana": "もちろん",
+      "kanji": "",
+      "romaji": "mochiron",
+      "kanaAlts": [],
+      "meanings": [
+        "of course"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371178,
+      "example": {
+        "en": "Of course I'll go.",
+        "ja": "もちろん、いきます。",
+        "jaKanji": "もちろん、行きます。",
+        "romaji": "Mochiron, ikimasu."
+      },
+      "audio": "voices/seed028.mp3",
+      "exampleAudio": "voices/seed028-ex.mp3"
+    },
+    {
+      "id": "seed029",
+      "kana": "はい",
+      "kanji": "",
+      "romaji": "hai",
+      "kanaAlts": [],
+      "meanings": [
+        "yes"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371179,
+      "example": {
+        "en": "Yes, that's right.",
+        "ja": "はい、そう です。",
+        "jaKanji": "はい、そうです。",
+        "romaji": "Hai, sō desu."
+      },
+      "audio": "voices/seed029.mp3",
+      "exampleAudio": "voices/seed029-ex.mp3"
+    },
+    {
+      "id": "seed030",
+      "kana": "いいえ",
+      "kanji": "",
+      "romaji": "iie",
+      "kanaAlts": [],
+      "meanings": [
+        "no"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371180,
+      "example": {
+        "en": "No, that's not right.",
+        "ja": "いいえ、ちがいます。",
+        "jaKanji": "いいえ、違います。",
+        "romaji": "Iie, chigaimasu."
+      },
+      "audio": "voices/seed030.mp3",
+      "exampleAudio": "voices/seed030-ex.mp3"
+    },
+    {
+      "id": "seed031",
+      "kana": "だいじょうぶですか",
+      "kanji": "大丈夫ですか",
+      "romaji": "daijōbu desu ka",
+      "kanaAlts": [],
+      "meanings": [
+        "are you alright",
+        "are you okay"
+      ],
+      "hint": "a question",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371181,
+      "example": {
+        "en": "Are you all right?",
+        "ja": "だいじょうぶ ですか。",
+        "jaKanji": "大丈夫ですか。",
+        "romaji": "Daijōbu desu ka."
+      },
+      "audio": "voices/seed031.mp3",
+      "exampleAudio": "voices/seed031-ex.mp3"
+    },
+    {
+      "id": "seed032",
+      "kana": "だいじょうぶです",
+      "kanji": "大丈夫です",
+      "romaji": "daijōbu desu",
+      "kanaAlts": [],
+      "meanings": [
+        "I'm alright",
+        "I'm okay",
+        "it's fine"
+      ],
+      "hint": "an answer",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371182,
+      "example": {
+        "en": "Yes, I'm fine.",
+        "ja": "はい、だいじょうぶ です。",
+        "jaKanji": "はい、大丈夫です。",
+        "romaji": "Hai, daijōbu desu."
+      },
+      "audio": "voices/seed032.mp3",
+      "exampleAudio": "voices/seed032-ex.mp3"
+    },
+    {
+      "id": "seed033",
+      "kana": "もういちどいいですか",
+      "kanji": "もう一度いいですか",
+      "romaji": "mō ichido ii desu ka",
+      "kanaAlts": [],
+      "meanings": [
+        "would you say that one more time",
+        "one more time please",
+        "could you repeat that"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371183,
+      "example": {
+        "en": "Sorry, could you say that once more?",
+        "ja": "すみません、もう いちど いい ですか。",
+        "jaKanji": "すみません、もう一度いいですか。",
+        "romaji": "Sumimasen, mō ichido ii desu ka."
+      },
+      "audio": "voices/seed033.mp3",
+      "exampleAudio": "voices/seed033-ex.mp3"
+    },
+    {
+      "id": "seed034",
+      "kana": "そうですね",
+      "kanji": "",
+      "romaji": "sō desu ne",
+      "kanaAlts": [],
+      "meanings": [
+        "I agree",
+        "that's right"
+      ],
+      "hint": "agreeing",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371184,
+      "example": {
+        "en": "I agree. I think so too.",
+        "ja": "そう ですね。わたしも そう おもいます。",
+        "jaKanji": "そうですね。私もそう思います。",
+        "romaji": "Sō desu ne. Watashi mo sō omoimasu."
+      },
+      "audio": "voices/seed034.mp3",
+      "exampleAudio": "voices/seed034-ex.mp3"
+    },
+    {
+      "id": "seed035",
+      "kana": "そうですか",
+      "kanji": "",
+      "romaji": "sō desu ka",
+      "kanaAlts": [],
+      "meanings": [
+        "is that so",
+        "I see"
+      ],
+      "hint": "acknowledging",
+      "note": "",
+      "source": "5",
+      "addedAt": 1790778371185,
+      "example": {
+        "en": "Is that so? I didn't know.",
+        "ja": "そう ですか。しりません でした。",
+        "jaKanji": "そうですか。知りませんでした。",
+        "romaji": "Sō desu ka. Shirimasen deshita."
+      },
+      "audio": "voices/seed035.mp3",
+      "exampleAudio": "voices/seed035-ex.mp3"
+    },
+    {
+      "id": "seed036",
+      "kana": "わたし",
+      "kanji": "私",
+      "romaji": "watashi",
+      "kanaAlts": [],
+      "meanings": [
+        "I",
+        "me"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371186,
+      "example": {
+        "en": "I am William.",
+        "ja": "わたしは ウィリアム です。",
+        "jaKanji": "私はウィリアムです。",
+        "romaji": "Watashi wa Wiriamu desu."
+      },
+      "audio": "voices/seed036.mp3",
+      "exampleAudio": "voices/seed036-ex.mp3"
+    },
+    {
+      "id": "seed037",
+      "kana": "にほんじん",
+      "kanji": "日本人",
+      "romaji": "nihonjin",
+      "kanaAlts": [],
+      "meanings": [
+        "Japanese person",
+        "Japanese"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371187,
+      "example": {
+        "en": "Mr Tanaka is Japanese.",
+        "ja": "たなかさんは にほんじん です。",
+        "jaKanji": "田中さんは日本人です。",
+        "romaji": "Tanaka-san wa nihonjin desu."
+      },
+      "audio": "voices/seed037.mp3",
+      "exampleAudio": "voices/seed037-ex.mp3"
+    },
+    {
+      "id": "seed038",
+      "kana": "アメリカ",
+      "kanji": "",
+      "romaji": "amerika",
+      "kanaAlts": [],
+      "meanings": [
+        "America",
+        "USA",
+        "the United States"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371188,
+      "example": {
+        "en": "Sam came from America.",
+        "ja": "サムさんは アメリカから きました。",
+        "jaKanji": "サムさんはアメリカから来ました。",
+        "romaji": "Samu-san wa Amerika kara kimashita."
+      },
+      "audio": "voices/seed038.mp3",
+      "exampleAudio": "voices/seed038-ex.mp3"
+    },
+    {
+      "id": "seed039",
+      "kana": "イギリス",
+      "kanji": "",
+      "romaji": "igirisu",
+      "kanaAlts": [],
+      "meanings": [
+        "Britain",
+        "the UK",
+        "England"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371189,
+      "example": {
+        "en": "I came from Britain.",
+        "ja": "わたしは イギリスから きました。",
+        "jaKanji": "私はイギリスから来ました。",
+        "romaji": "Watashi wa Igirisu kara kimashita."
+      },
+      "audio": "voices/seed039.mp3",
+      "exampleAudio": "voices/seed039-ex.mp3"
+    },
+    {
+      "id": "seed040",
+      "kana": "インド",
+      "kanji": "",
+      "romaji": "indo",
+      "kanaAlts": [],
+      "meanings": [
+        "India"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371190,
+      "example": {
+        "en": "Indian curry is delicious.",
+        "ja": "インドの カレーは おいしい です。",
+        "jaKanji": "インドのカレーは美味しいです。",
+        "romaji": "Indo no karē wa oishii desu."
+      },
+      "audio": "voices/seed040.mp3",
+      "exampleAudio": "voices/seed040-ex.mp3"
+    },
+    {
+      "id": "seed041",
+      "kana": "エジプト",
+      "kanji": "",
+      "romaji": "ejiputo",
+      "kanaAlts": [],
+      "meanings": [
+        "Egypt"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371191,
+      "example": {
+        "en": "I want to go to Egypt.",
+        "ja": "エジプトに いきたい です。",
+        "jaKanji": "エジプトに行きたいです。",
+        "romaji": "Ejiputo ni ikitai desu."
+      },
+      "audio": "voices/seed041.mp3",
+      "exampleAudio": "voices/seed041-ex.mp3"
+    },
+    {
+      "id": "seed042",
+      "kana": "オーストラリア",
+      "kanji": "",
+      "romaji": "ōsutoraria",
+      "kanaAlts": [],
+      "meanings": [
+        "Australia"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371192,
+      "example": {
+        "en": "Australia is big.",
+        "ja": "オーストラリアは おおきい です。",
+        "jaKanji": "オーストラリアは大きいです。",
+        "romaji": "Ōsutoraria wa ōkii desu."
+      },
+      "audio": "voices/seed042.mp3",
+      "exampleAudio": "voices/seed042-ex.mp3"
+    },
+    {
+      "id": "seed043",
+      "kana": "カナダ",
+      "kanji": "",
+      "romaji": "kanada",
+      "kanaAlts": [],
+      "meanings": [
+        "Canada"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371193,
+      "example": {
+        "en": "Winters in Canada are cold.",
+        "ja": "カナダの ふゆは さむい です。",
+        "jaKanji": "カナダの冬は寒いです。",
+        "romaji": "Kanada no fuyu wa samui desu."
+      },
+      "audio": "voices/seed043.mp3",
+      "exampleAudio": "voices/seed043-ex.mp3"
+    },
+    {
+      "id": "seed044",
+      "kana": "かんこく",
+      "kanji": "韓国",
+      "romaji": "kankoku",
+      "kanaAlts": [],
+      "meanings": [
+        "Korea",
+        "South Korea"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371194,
+      "example": {
+        "en": "I like Korean food.",
+        "ja": "かんこくの りょうりが すき です。",
+        "jaKanji": "韓国の料理が好きです。",
+        "romaji": "Kankoku no ryōri ga suki desu."
+      },
+      "audio": "voices/seed044.mp3",
+      "exampleAudio": "voices/seed044-ex.mp3"
+    },
+    {
+      "id": "seed045",
+      "kana": "ドイツ",
+      "kanji": "",
+      "romaji": "doitsu",
+      "kanaAlts": [],
+      "meanings": [
+        "Germany"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371195,
+      "example": {
+        "en": "German beer is famous.",
+        "ja": "ドイツの ビールは ゆうめい です。",
+        "jaKanji": "ドイツのビールは有名です。",
+        "romaji": "Doitsu no bīru wa yūmei desu."
+      },
+      "audio": "voices/seed045.mp3",
+      "exampleAudio": "voices/seed045-ex.mp3"
+    },
+    {
+      "id": "seed046",
+      "kana": "ちゅうごく",
+      "kanji": "中国",
+      "romaji": "chūgoku",
+      "kanaAlts": [],
+      "meanings": [
+        "China"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371196,
+      "example": {
+        "en": "China is vast.",
+        "ja": "ちゅうごくは ひろい です。",
+        "jaKanji": "中国は広いです。",
+        "romaji": "Chūgoku wa hiroi desu."
+      },
+      "audio": "voices/seed046.mp3",
+      "exampleAudio": "voices/seed046-ex.mp3"
+    },
+    {
+      "id": "seed047",
+      "kana": "ブラジル",
+      "kanji": "",
+      "romaji": "burajiru",
+      "kanaAlts": [],
+      "meanings": [
+        "Brazil"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "7",
+      "addedAt": 1790778371197,
+      "example": {
+        "en": "Brazilian coffee is delicious.",
+        "ja": "ブラジルの コーヒーは おいしい です。",
+        "jaKanji": "ブラジルのコーヒーは美味しいです。",
+        "romaji": "Burajiru no kōhī wa oishii desu."
+      },
+      "audio": "voices/seed047.mp3",
+      "exampleAudio": "voices/seed047-ex.mp3"
+    },
+    {
+      "id": "seed048",
+      "kana": "アメリカじん",
+      "kanji": "アメリカ人",
+      "romaji": "amerikajin",
+      "kanaAlts": [],
+      "meanings": [
+        "American",
+        "American person"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371198,
+      "example": {
+        "en": "Sam is American.",
+        "ja": "サムさんは アメリカじん です。",
+        "jaKanji": "サムさんはアメリカ人です。",
+        "romaji": "Samu-san wa amerikajin desu."
+      },
+      "audio": "voices/seed048.mp3",
+      "exampleAudio": "voices/seed048-ex.mp3"
+    },
+    {
+      "id": "seed049",
+      "kana": "オーストラリアじん",
+      "kanji": "オーストラリア人",
+      "romaji": "ōsutorariajin",
+      "kanaAlts": [],
+      "meanings": [
+        "Australian",
+        "Australian person"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371199,
+      "example": {
+        "en": "Emma is Australian.",
+        "ja": "エマさんは オーストラリアじん です。",
+        "jaKanji": "エマさんはオーストラリア人です。",
+        "romaji": "Ema-san wa ōsutorariajin desu."
+      },
+      "audio": "voices/seed049.mp3",
+      "exampleAudio": "voices/seed049-ex.mp3"
+    },
+    {
+      "id": "seed050",
+      "kana": "インドじん",
+      "kanji": "インド人",
+      "romaji": "indojin",
+      "kanaAlts": [],
+      "meanings": [
+        "Indian",
+        "Indian person"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371200,
+      "example": {
+        "en": "Raj is Indian.",
+        "ja": "ラジさんは インドじん です。",
+        "jaKanji": "ラジさんはインド人です。",
+        "romaji": "Raji-san wa indojin desu."
+      },
+      "audio": "voices/seed050.mp3",
+      "exampleAudio": "voices/seed050-ex.mp3"
+    },
+    {
+      "id": "seed051",
+      "kana": "かんこくじん",
+      "kanji": "韓国人",
+      "romaji": "kankokujin",
+      "kanaAlts": [],
+      "meanings": [
+        "Korean",
+        "Korean person"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371201,
+      "example": {
+        "en": "Ms Kim is Korean.",
+        "ja": "キムさんは かんこくじん です。",
+        "jaKanji": "キムさんは韓国人です。",
+        "romaji": "Kimu-san wa kankokujin desu."
+      },
+      "audio": "voices/seed051.mp3",
+      "exampleAudio": "voices/seed051-ex.mp3"
+    },
+    {
+      "id": "seed052",
+      "kana": "がくせい",
+      "kanji": "学生",
+      "romaji": "gakusei",
+      "kanaAlts": [],
+      "meanings": [
+        "student"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "8",
+      "addedAt": 1790778371202,
+      "example": {
+        "en": "I am a student.",
+        "ja": "わたしは がくせい です。",
+        "jaKanji": "私は学生です。",
+        "romaji": "Watashi wa gakusei desu."
+      },
+      "audio": "voices/seed052.mp3",
+      "exampleAudio": "voices/seed052-ex.mp3"
+    },
+    {
+      "id": "seed053",
+      "kana": "せんせい",
+      "kanji": "先生",
+      "romaji": "sensei",
+      "kanaAlts": [],
+      "meanings": [
+        "teacher"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "8",
+      "addedAt": 1790778371203,
+      "example": {
+        "en": "Mr Tanaka is a teacher.",
+        "ja": "たなかさんは せんせい です。",
+        "jaKanji": "田中さんは先生です。",
+        "romaji": "Tanaka-san wa sensei desu."
+      },
+      "audio": "voices/seed053.mp3",
+      "exampleAudio": "voices/seed053-ex.mp3"
+    },
+    {
+      "id": "seed054",
+      "kana": "かいしゃいん",
+      "kanji": "会社員",
+      "romaji": "kaishain",
+      "kanaAlts": [],
+      "meanings": [
+        "office worker",
+        "company worker",
+        "company employee"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "8",
+      "addedAt": 1790778371204,
+      "example": {
+        "en": "I am an office worker.",
+        "ja": "わたしは かいしゃいん です。",
+        "jaKanji": "私は会社員です。",
+        "romaji": "Watashi wa kaishain desu."
+      },
+      "audio": "voices/seed054.mp3",
+      "exampleAudio": "voices/seed054-ex.mp3"
+    },
+    {
+      "id": "seed055",
+      "kana": "しゅふ",
+      "kanji": "主婦",
+      "romaji": "shufu",
+      "kanaAlts": [],
+      "meanings": [
+        "housewife",
+        "homemaker"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "8",
+      "addedAt": 1790778371205,
+      "example": {
+        "en": "My mother is a housewife.",
+        "ja": "ははは しゅふ です。",
+        "jaKanji": "母は主婦です。",
+        "romaji": "Haha wa shufu desu."
+      },
+      "audio": "voices/seed055.mp3",
+      "exampleAudio": "voices/seed055-ex.mp3"
+    },
+    {
+      "id": "seed056",
+      "kana": "エンジニア",
+      "kanji": "",
+      "romaji": "enjinia",
+      "kanaAlts": [],
+      "meanings": [
+        "engineer"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "8",
+      "addedAt": 1790778371206,
+      "example": {
+        "en": "Sam is an engineer.",
+        "ja": "サムさんは エンジニア です。",
+        "jaKanji": "サムさんはエンジニアです。",
+        "romaji": "Samu-san wa enjinia desu."
+      },
+      "audio": "voices/seed056.mp3",
+      "exampleAudio": "voices/seed056-ex.mp3"
+    },
+    {
+      "id": "seed057",
+      "kana": "じゃないです",
+      "kanji": "",
+      "romaji": "ja nai desu",
+      "kanaAlts": [],
+      "meanings": [
+        "is not",
+        "am not",
+        "not"
+      ],
+      "hint": "negative of desu",
+      "note": "Samu-san wa gakusei desu ka? Iie, gakusei ja nai desu.",
+      "source": "9",
+      "addedAt": 1790778371207,
+      "example": {
+        "en": "I am not a student.",
+        "ja": "わたしは がくせい じゃない です。",
+        "jaKanji": "私は学生じゃないです。",
+        "romaji": "Watashi wa gakusei ja nai desu."
+      },
+      "audio": "voices/seed057.mp3",
+      "exampleAudio": "voices/seed057-ex.mp3"
+    },
+    {
+      "id": "seed058",
+      "kana": "おしごとは",
+      "kanji": "お仕事は",
+      "romaji": "o-shigoto wa?",
+      "kanaAlts": [],
+      "meanings": [
+        "what is your job",
+        "what do you do"
+      ],
+      "hint": "asking someone's job",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371208,
+      "example": {
+        "en": "\"What's your job?\" \"I'm an office worker.\"",
+        "ja": "「おしごとは？」「かいしゃいん です。」",
+        "jaKanji": "「お仕事は？」「会社員です。」",
+        "romaji": "\"O-shigoto wa?\" \"Kaishain desu.\""
+      },
+      "audio": "voices/seed058.mp3",
+      "exampleAudio": "voices/seed058-ex.mp3"
+    },
+    {
+      "id": "seed059",
+      "kana": "おうちは",
+      "kanji": "お家は",
+      "romaji": "o-uchi wa?",
+      "kanaAlts": [],
+      "meanings": [
+        "where do you live"
+      ],
+      "hint": "asking where someone lives",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371209,
+      "example": {
+        "en": "\"Where do you live?\" \"Tokyo.\"",
+        "ja": "「おうちは？」「とうきょう です。」",
+        "jaKanji": "「お家は？」「東京です。」",
+        "romaji": "\"O-uchi wa?\" \"Tōkyō desu.\""
+      },
+      "audio": "voices/seed059.mp3",
+      "exampleAudio": "voices/seed059-ex.mp3"
+    },
+    {
+      "id": "seed060",
+      "kana": "とうきょう",
+      "kanji": "東京",
+      "romaji": "tōkyō",
+      "kanaAlts": [],
+      "meanings": [
+        "Tokyo"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "9",
+      "addedAt": 1790778371210,
+      "example": {
+        "en": "I live in Tokyo.",
+        "ja": "とうきょうに すんで います。",
+        "jaKanji": "東京に住んでいます。",
+        "romaji": "Tōkyō ni sunde imasu."
+      },
+      "audio": "voices/seed060.mp3",
+      "exampleAudio": "voices/seed060-ex.mp3"
+    }
+  ]
+}
