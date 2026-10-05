@@ -8,8 +8,10 @@
  */
 
 export const TYPES = ['jpen', 'enjp', 'audio'];
-export const TYPE_LABEL = { jpen: 'Read it', enjp: 'Say it in Japanese', audio: 'Listen and write' };
-export const RECENT_WORDS = 5;   // a word is not shown again within this many cards
+export const TYPE_LABEL = { jpen: 'Read it', enjp: 'Say it', audio: 'Hear it' };
+export const TYPE_ASK = { jpen: 'What does this mean?', enjp: 'Say it in Japanese, out loud', audio: 'What does this mean?' };
+export const CORRECT = 3, WRONG = 1;   // the two grades self-marking uses
+export const RECENT_WORDS = 8;   // a word is not shown again within this many cards
 export const LEARN_MS = 10 * 60 * 1000;   // a failed card comes back after ten minutes
 export const AHEAD_MS = 20 * 60 * 1000;   // learning cards due within this are shown early when nothing else is due
 export const DAY = 86400000;
@@ -73,15 +75,27 @@ export const cardKey = (wid, type) => wid + '/' + type;
  * list of word ids shown in the last few turns: a word's other cards wait
  * until it has dropped out of that list, so siblings never run back to back.
  * New cards are introduced in rounds (every word's reading card, then every
- * word's production card, then listening) rather than word by word.
+ * word's production card, then listening) rather than word by word, and a
+ * word's later card types stay locked until its reading card has graduated
+ * to review, so one word is not drilled three ways on the day you meet it.
  */
+/** A word's second and third card types wait until the one before has graduated. */
+export function unlocked(cards, wid, type) {
+  const i = TYPES.indexOf(type);
+  if (i <= 0) return true;
+  const before = cards[cardKey(wid, TYPES[i - 1])];
+  return !!before && before.state === 'review';
+}
+
 export function pickNext(words, cards, now, newBudget, recentWords) {
   const due = [], fresh = [], ahead = [];
   for (const id in words) {
     const w = words[id];
     for (const ty of TYPES) {
       const c = cards[cardKey(id, ty)] || { state: 'new' };
-      if (c.state === 'new') fresh.push({ wid: id, type: ty, added: w.addedAt || 0, o: TYPES.indexOf(ty) });
+      if (c.state === 'new') {
+        if (unlocked(cards, id, ty)) fresh.push({ wid: id, type: ty, added: w.addedAt || 0, o: TYPES.indexOf(ty) });
+      }
       else if (c.due <= now) due.push({ wid: id, type: ty, due: c.due });
       else if ((c.state === 'learning' || c.state === 'relearning') && c.due <= now + AHEAD_MS) ahead.push({ wid: id, type: ty, due: c.due });
     }
@@ -108,7 +122,7 @@ export function counts(words, cards, now) {
     total++;
     for (const ty of TYPES) {
       const c = cards[cardKey(id, ty)] || { state: 'new' };
-      if (c.state === 'new') fresh++; else if (c.due <= now) due++;
+      if (c.state === 'new') { if (unlocked(cards, id, ty)) fresh++; } else if (c.due <= now) due++;
     }
   }
   return { due, fresh, total };

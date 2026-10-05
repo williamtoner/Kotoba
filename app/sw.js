@@ -11,7 +11,7 @@
  * invalidate old caches.
  */
 
-const CACHE_VERSION = 'kotoba-v2';
+const CACHE_VERSION = 'kotoba-v3';
 const SHELL = [
   './', './index.html', './style.css', './app.js', './srs.js', './grading.js', './store.js', './sync.js', './extract.js',
   './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',

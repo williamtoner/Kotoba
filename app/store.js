@@ -11,7 +11,7 @@
  *   days        { "YYYY-MM-DD": {reviews, correct} }
  *   words       { "<wordId>": {updatedAt, suspended?, deleted?, override?: {...fields}} }
  *   localWords  { "<wordId>": {...a full word, updatedAt} }   words added on this device, not yet in the repo
- *   settings    { newPerDay, autoplay, theme }
+ *   settings    { newPerDay, autoplay, theme, typeAnswers }
  *
  * Everything that reads or writes storage is wrapped so a blocked or full
  * store degrades to memory-only instead of breaking the app.
@@ -25,7 +25,7 @@ const BACKUP_DAYS = 14;
 
 const state = { localStorageOk: true, lastError: null, saveTimer: null, pending: null };
 
-export function defaultSettings() { return { newPerDay: 0, autoplay: true, theme: 'system' }; }
+export function defaultSettings() { return { newPerDay: 0, autoplay: true, theme: 'system', typeAnswers: false }; }
 
 export function defaultProgress(now = new Date()) {
   const iso = now.toISOString();
@@ -55,6 +55,7 @@ export function normaliseSettings(raw) {
   if (!isObj(raw)) return s;
   if (typeof raw.newPerDay === 'number' && raw.newPerDay >= 0) s.newPerDay = Math.min(500, Math.floor(raw.newPerDay));
   if (typeof raw.autoplay === 'boolean') s.autoplay = raw.autoplay;
+  if (typeof raw.typeAnswers === 'boolean') s.typeAnswers = raw.typeAnswers;
   if (raw.theme === 'light' || raw.theme === 'dark' || raw.theme === 'system') s.theme = raw.theme;
   return s;
 }

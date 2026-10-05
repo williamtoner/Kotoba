@@ -185,38 +185,57 @@ function renderReview() {
     return;
   }
   const w = words[current.wid]; const type = current.type; const card = cardOf(w.id, type);
+  const typing = !!progress.settings.typeAnswers;
   html += '<div class="card"><div class="kind"><span class="tag">' + TYPE_LABEL[type] + '</span><span>' + (current.practice ? '<span class="practice">practice</span>' : card.state === 'new' ? 'new' : card.state === 'review' ? 'review' : 'learning') + '</span></div><div class="prompt">';
   if (type === 'jpen') html += '<div class="big">' + jpDisplay(w) + '</div>';
   else if (type === 'enjp') html += '<div class="big en">' + esc((w.meanings || []).join(' / ')) + '</div>' + (w.hint ? '<div class="sub">' + esc(w.hint) + '</div>' : '');
   else {
     html += '<button class="playbtn" id="play" aria-label="Play audio">&#9654;</button>';
     if (!w.audio && voiceChecked && !voice) html += '<div class="novoice">No recording yet and no Japanese voice on this device, so here is the English instead.</div><div class="big en">' + esc((w.meanings || []).join(' / ')) + '</div>';
-    else html += '<div class="sub">write what you hear' + (w.audio ? '' : ' (device voice)') + '</div>';
   }
+  if (phase === 'ask' && !typing) html += '<div class="sub">' + esc(S.TYPE_ASK[type]) + '</div>';
   html += '</div>';
   if (phase === 'ask') {
-    const jp = type !== 'jpen';
-    html += '<form class="answer" id="ansform"><input id="ans" ' + (jp ? 'class="jp" lang="ja"' : 'lang="en"') + ' placeholder="' + (jp ? 'かな or romaji' : 'type the English') + '" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done"><button class="btn primary" type="submit">Check</button></form>';
+    if (typing) {
+      const jp = type !== 'jpen';
+      html += '<form class="answer" id="ansform"><input id="ans" ' + (jp ? 'class="jp" lang="ja"' : 'lang="en"') + ' placeholder="' + (jp ? 'かな or romaji' : 'type the English') + '" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done"><button class="btn primary" type="submit">Check</button></form>';
+    } else {
+      html += '<div class="grades one"><button class="btn primary huge" id="reveal">' + (type === 'enjp' ? '&#9654; Play the Japanese' : 'Show the answer') + '</button></div>';
+      html += '<div class="row">' + (type === 'audio' ? '<button class="btn quiet" id="speakagain">&#9654; hear it again</button>' : '') + '<span style="flex:1"></span><kbd>Space = show</kbd></div>';
+    }
   } else {
-    html += '<div class="verdict ' + (verdict.ok ? 'ok' : 'no') + '"><span class="lead">' + (verdict.ok ? 'Correct' : 'Not quite') + '</span>' + (verdict.note ? '<span>' + esc(verdict.note) + '</span>' : '') + '<span class="typed">you typed: ' + (esc(verdict.typed) || '(nothing)') + '</span></div>';
+    if (verdict) html += '<div class="verdict ' + (verdict.ok ? 'ok' : 'no') + '"><span class="lead">' + (verdict.ok ? 'Correct' : 'Not quite') + '</span>' + (verdict.note ? '<span>' + esc(verdict.note) + '</span>' : '') + '<span class="typed">you typed: ' + (esc(verdict.typed) || '(nothing)') + '</span></div>';
     html += '<dl class="reveal"><dt>Japanese</dt><dd class="jpbig">' + jpDisplay(w) + '</dd><dt>Romaji</dt><dd>' + esc(w.romaji) + '</dd><dt>English</dt><dd>' + esc((w.meanings || []).join(' / ')) + (w.hint ? ' <span style="color:var(--muted)">(' + esc(w.hint) + ')</span>' : '') + '</dd>' + (w.note ? '<dt>Note</dt><dd>' + esc(w.note) + '</dd>' : '') + '</dl>';
     if (w.example && w.example.ja) html += '<div class="example"><div class="ja jp">' + esc(w.example.ja) + '</div><div class="ro">' + esc(w.example.romaji || '') + '</div><div class="en">' + esc(w.example.en || '') + '</div><button class="btn small exbtn" id="explay">&#9654; sentence</button></div>';
-    const R = 0.9; const pv = (g) => current.practice ? '' : S.previewInterval(card, g, now, R);
-    html += '<div class="grades">';
-    if (current.practice) html += '<button class="btn primary" data-g="3" id="defgrade">Next</button>';
-    else if (verdict.ok) html += '<button class="btn" data-g="2">Hard<small>' + pv(2) + '</small></button><button class="btn primary" data-g="3" id="defgrade">Good<small>' + pv(3) + '</small></button><button class="btn" data-g="4">Easy<small>' + pv(4) + '</small></button>';
-    else html += '<button class="btn primary" data-g="1" id="defgrade">Again<small>' + pv(1) + '</small></button><button class="btn" data-g="3">I was right<small>' + pv(3) + '</small></button>';
-    html += '</div><div class="row"><button class="btn quiet" id="speakagain">&#9654; hear it</button><span style="flex:1"></span><kbd>Enter = ' + (current.practice ? 'Next' : verdict.ok ? 'Good' : 'Again') + '</kbd></div>';
+    if (current.practice) html += '<div class="grades one"><button class="btn primary huge" data-g="3" id="defgrade">Next</button></div>';
+    else html += '<div class="grades two"><button class="btn huge wrong" data-g="' + S.WRONG + '" id="wrongbtn">Wrong</button><button class="btn primary huge" data-g="' + S.CORRECT + '" id="defgrade">Correct</button></div>';
+    html += '<div class="row"><button class="btn quiet" id="speakagain">&#9654; hear it</button><span style="flex:1"></span>' + (current.practice ? '<kbd>Enter = Next</kbd>' : '<kbd>Enter = correct</kbd><kbd>X = wrong</kbd>') + '</div>';
   }
   html += '</div>';
   v.innerHTML = html;
   const play = $('#play'); if (play) { play.onclick = () => speakWord(w); if (progress.settings.autoplay && phase === 'ask') speakWord(w); }
   const sa = $('#speakagain'); if (sa) sa.onclick = () => speakWord(w);
   const ep = $('#explay'); if (ep) ep.onclick = () => speakExample(w);
+  const rv = $('#reveal'); if (rv) rv.onclick = () => revealAnswer();
   const f = $('#ansform'); if (f) { f.onsubmit = (e) => { e.preventDefault(); checkAnswer($('#ans').value); }; setTimeout(() => { try { $('#ans').focus(); } catch (_) { /* ignore */ } }, 30); }
   for (const b of v.querySelectorAll('[data-g]')) b.onclick = () => applyGrade(+b.dataset.g);
 }
-document.addEventListener('keydown', (e) => { if (e.key === 'Enter' && tab === 'review' && phase === 'reveal') { const b = $('#defgrade'); if (b) { e.preventDefault(); b.click(); } } });
+
+/** Self-marking: show the answer (and say it, since hearing it is half the point). */
+function revealAnswer() {
+  const w = words[current.wid]; const type = current.type;
+  phase = 'reveal'; verdict = null;
+  if (type !== 'audio') speakWord(w);
+  render();
+}
+document.addEventListener('keydown', (e) => {
+  if (tab !== 'review' || !current) return;
+  if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+  const hit = (sel) => { const b = $(sel); if (b) { e.preventDefault(); b.click(); } };
+  if (phase === 'ask') { if (e.key === ' ' || e.key === 'Enter') hit('#reveal'); return; }
+  if (e.key === 'Enter' || e.key === 'c' || e.key === 'ArrowRight') hit('#defgrade');
+  else if (e.key === 'x' || e.key === 'ArrowLeft' || e.key === 'Backspace') hit('#wrongbtn');
+});
 
 function checkAnswer(typed) {
   const w = words[current.wid]; const type = current.type; let ok = false, note = '';
@@ -411,7 +430,7 @@ function renderWords() {
 // ---------------------------------------------------------------- settings
 function renderSettings() {
   const v = $('#view-settings'); const s = progress.settings;
-  let html = '<div class="section"><h2>Review</h2><div class="settings"><label>New cards per day <input type="number" id="npd" min="0" max="500" value="' + s.newPerDay + '"></label><span class="help" style="font-size:13px;color:var(--muted)">0 means no cap: every word on a page is learned the day you add it.</span></div><div class="settings"><label><input type="checkbox" id="autoplay" ' + (s.autoplay ? 'checked' : '') + '> Play audio automatically</label><label>Theme <select id="theme"><option value="system"' + (s.theme === 'system' ? ' selected' : '') + '>System</option><option value="light"' + (s.theme === 'light' ? ' selected' : '') + '>Light</option><option value="dark"' + (s.theme === 'dark' ? ' selected' : '') + '>Dark</option></select></label></div></div>';
+  let html = '<div class="section"><h2>Review</h2><div class="settings"><label>New cards per day <input type="number" id="npd" min="0" max="500" value="' + s.newPerDay + '"></label><span class="help" style="font-size:13px;color:var(--muted)">0 means no cap: every word on a page is learned the day you add it.</span></div><div class="settings"><label><input type="checkbox" id="autoplay" ' + (s.autoplay ? 'checked' : '') + '> Play audio automatically</label><label><input type="checkbox" id="typeans" ' + (s.typeAnswers ? 'checked' : '') + '> Type the answer instead of marking myself</label><label>Theme <select id="theme"><option value="system"' + (s.theme === 'system' ? ' selected' : '') + '>System</option><option value="light"' + (s.theme === 'light' ? ' selected' : '') + '>Light</option><option value="dark"' + (s.theme === 'dark' ? ' selected' : '') + '>Dark</option></select></label></div></div>';
 
   html += '<div class="section"><h2>Sync between devices</h2><p class="help">Keeps your progress in a private Gist on your GitHub account, so the phone and the laptop share one file. The same token lets the app publish words you add, so they get recordings.</p>';
   if (syncCfg && syncCfg.token) {
@@ -435,6 +454,7 @@ function renderSettings() {
 
   $('#npd').onchange = () => { progress.settings.newPerDay = Math.max(0, Math.min(500, +$('#npd').value || 0)); saveProgress(); current = null; };
   $('#autoplay').onchange = () => { progress.settings.autoplay = $('#autoplay').checked; saveProgress(); };
+  $('#typeans').onchange = () => { progress.settings.typeAnswers = $('#typeans').checked; saveProgress(); current = null; phase = 'ask'; verdict = null; };
   $('#theme').onchange = () => { progress.settings.theme = $('#theme').value; applyTheme(); saveProgress(); };
   const on = $('#syncon'); if (on) on.onclick = async () => {
     const token = ($('#ghtoken').value || '').trim(); if (!token) return; on.disabled = true;

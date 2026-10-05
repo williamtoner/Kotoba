@@ -32,7 +32,12 @@ eq(S.pickNext(words, { 'a/jpen': { state: 'review', due: now + S.DAY }, 'b/jpen'
 const dueSibs = { 'a/jpen': { state: 'review', due: now - 3000 }, 'a/enjp': { state: 'review', due: now - 2000 }, 'b/jpen': { state: 'review', due: now - 1000 } };
 eq(S.pickNext(words, dueSibs, now, Infinity, ['a']).wid, 'b', 'due siblings are spread out');
 ok(S.pickNext(words, {}, now, 0, []) === null, 'no new cards when the budget is zero');
-eq(S.counts(words, cards, now), { due: 1, fresh: 4, total: 2 }, 'counts');
+ok(S.unlocked({}, 'a', 'jpen'), 'the reading card is always available');
+ok(!S.unlocked({}, 'a', 'enjp') && !S.unlocked({ 'a/jpen': { state: 'learning' } }, 'a', 'enjp'), 'later types wait for the reading card to graduate');
+ok(S.unlocked({ 'a/jpen': { state: 'review' } }, 'a', 'enjp'), 'a graduated reading card unlocks production');
+eq(S.pickNext({ a: words.a }, { 'a/jpen': { state: 'learning', due: now + S.DAY } }, now, Infinity, []), null, 'no sibling card on the day a word is met');
+eq(S.counts({ a: words.a }, { 'a/jpen': { state: 'learning', due: now + S.DAY } }, now), { due: 0, fresh: 0, total: 1 }, 'locked cards are not counted as new');
+eq(S.counts(words, cards, now), { due: 1, fresh: 2, total: 2 }, 'counts only the new cards that are unlocked');
 const dk = (t) => new Date(t).toISOString().slice(0, 10);
 const today = Date.UTC(2026, 9, 4);
 eq(S.streak({ [dk(today)]: { reviews: 2 }, [dk(today - S.DAY)]: { reviews: 1 } }, today, dk), 2, 'streak counts today and yesterday');

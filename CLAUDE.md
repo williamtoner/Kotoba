@@ -57,6 +57,14 @@ tests/run.mjs   node tests for the pure modules
 - Bump `CACHE_VERSION` in `app/sw.js` when shell files change in a way that
   must invalidate old caches.
 - Audio paths in `words.json` are relative to `app/` (`voices/<id>.mp3`).
-- Listening cards are dictation (type the kana or romaji you heard). Cards of one word are kept at least RECENT_WORDS apart and new cards are introduced in rounds by type (see pickNext in srs.js).
+- Reviews are self-marked: each card reveals the answer, then **Wrong** / **Correct** (grades 1 and 3;
+  `S.WRONG` / `S.CORRECT`). No typing — the three types test recognition and recall out loud:
+  `jpen` read the Japanese, `audio` hear it, `enjp` see the English and say it aloud, then press
+  "Play the Japanese" to check yourself. Typing can be switched back on per learner
+  (Settings → "Type the answer instead of marking myself", `settings.typeAnswers`), which restores the
+  old `grading.js` path; keep `grading.js` and its tests working.
+- To keep repetition down: cards of one word stay at least `RECENT_WORDS` apart, new cards come in
+  rounds by type, and a word's later types are locked until the type before it reaches `review`
+  (`unlocked()` in srs.js) — so a new word is not drilled three ways on the day you meet it.
 - The learner can type kana or romaji; grading rules are in `app/grading.js`
   and have tests. Add a test when you change them.

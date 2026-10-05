@@ -85,6 +85,10 @@ nav.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:1px
 .grades .btn{flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 8px}
 .grades .btn small{font-weight:400;color:var(--muted);font-size:12px}
 .grades .btn.primary small{color:var(--accent-ink);opacity:.85}
+.grades .btn.huge{font-size:20px;padding:20px 8px;min-height:68px;border-radius:14px}
+.grades.two{gap:12px}
+.grades .btn.wrong{color:var(--bad);border-color:var(--bad)}
+.grades .btn.wrong:active,.grades .btn.huge:active{transform:scale(.98)}
 .empty{text-align:center;padding-block:40px 30px;color:var(--muted)}
 .empty .jp{font-size:44px;color:var(--fg);font-weight:700;margin-bottom:8px}
 .summary{margin-top:12px}
