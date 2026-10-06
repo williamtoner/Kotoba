@@ -1390,6 +1390,1520 @@
       },
       "audio": "voices/seed060.mp3",
       "exampleAudio": "voices/seed060-ex.mp3"
+    },
+    {
+      "kana": "おくに",
+      "kanji": "お国",
+      "romaji": "(o)kuni",
+      "kanaAlts": [
+        "くに"
+      ],
+      "meanings": [
+        "country",
+        "which country are you from"
+      ],
+      "hint": "polite, about someone else",
+      "note": "The o- makes it polite about the listener",
+      "source": "10",
+      "example": {
+        "ja": "おくに は どこ です か。",
+        "jaKanji": "お国はどこですか。",
+        "romaji": "Okuni wa doko desu ka.",
+        "en": "Which country are you from?"
+      },
+      "id": "w-muwpa2jw",
+      "addedAt": 1791292458092,
+      "audio": "voices/w-muwpa2jw.mp3",
+      "exampleAudio": "voices/w-muwpa2jw-ex.mp3"
+    },
+    {
+      "kana": "くに",
+      "kanji": "国",
+      "romaji": "kuni",
+      "kanaAlts": [],
+      "meanings": [
+        "country"
+      ],
+      "hint": "plain",
+      "note": "",
+      "source": "10",
+      "example": {
+        "ja": "わたし の くに は イギリス です。",
+        "jaKanji": "私の国はイギリスです。",
+        "romaji": "Watashi no kuni wa Igirisu desu.",
+        "en": "My country is the UK."
+      },
+      "id": "w-muwpa2jx",
+      "addedAt": 1791292458093,
+      "audio": "voices/w-muwpa2jx.mp3",
+      "exampleAudio": "voices/w-muwpa2jx-ex.mp3"
+    },
+    {
+      "kana": "ごしゅっしん",
+      "kanji": "ご出身",
+      "romaji": "(go)shusshin",
+      "kanaAlts": [
+        "しゅっしん"
+      ],
+      "meanings": [
+        "hometown",
+        "birthplace",
+        "where someone is from"
+      ],
+      "hint": "polite",
+      "note": "",
+      "source": "10",
+      "example": {
+        "ja": "ごしゅっしん は どこ です か。",
+        "jaKanji": "ご出身はどこですか。",
+        "romaji": "Goshusshin wa doko desu ka.",
+        "en": "Where are you from?"
+      },
+      "id": "w-muwpa2jy",
+      "addedAt": 1791292458094,
+      "audio": "voices/w-muwpa2jy.mp3",
+      "exampleAudio": "voices/w-muwpa2jy-ex.mp3"
+    },
+    {
+      "kana": "おなまえ",
+      "kanji": "お名前",
+      "romaji": "(o)namae",
+      "kanaAlts": [
+        "なまえ"
+      ],
+      "meanings": [
+        "name"
+      ],
+      "hint": "polite, about someone else",
+      "note": "",
+      "source": "10",
+      "example": {
+        "ja": "おなまえ は なん です か。",
+        "jaKanji": "お名前は何ですか。",
+        "romaji": "Onamae wa nan desu ka.",
+        "en": "What is your name?"
+      },
+      "id": "w-muwpa2jz",
+      "addedAt": 1791292458095,
+      "audio": "voices/w-muwpa2jz.mp3",
+      "exampleAudio": "voices/w-muwpa2jz-ex.mp3"
+    },
+    {
+      "kana": "かいしゃ",
+      "kanji": "会社",
+      "romaji": "kaisha",
+      "kanaAlts": [],
+      "meanings": [
+        "company",
+        "firm"
+      ],
+      "hint": "",
+      "note": "Not the same as kaishain, a company worker",
+      "source": "10",
+      "example": {
+        "ja": "かいしゃ は とうきょう です。",
+        "jaKanji": "会社は東京です。",
+        "romaji": "Kaisha wa Tōkyō desu.",
+        "en": "The company is in Tokyo."
+      },
+      "id": "w-muwpa2k0",
+      "addedAt": 1791292458096,
+      "audio": "voices/w-muwpa2k0.mp3",
+      "exampleAudio": "voices/w-muwpa2k0-ex.mp3"
+    },
+    {
+      "kana": "すき",
+      "kanji": "好き",
+      "romaji": "suki",
+      "kanaAlts": [],
+      "meanings": [
+        "like",
+        "fond of"
+      ],
+      "hint": "",
+      "note": "Takes ga: X ga suki desu",
+      "source": "11",
+      "example": {
+        "ja": "おんがく が すき です。",
+        "jaKanji": "音楽が好きです。",
+        "romaji": "Ongaku ga suki desu.",
+        "en": "I like music."
+      },
+      "id": "w-muwpa2k1",
+      "addedAt": 1791292458097,
+      "audio": "voices/w-muwpa2k1.mp3",
+      "exampleAudio": "voices/w-muwpa2k1-ex.mp3"
+    },
+    {
+      "kana": "だいすき",
+      "kanji": "大好き",
+      "romaji": "daisuki",
+      "kanaAlts": [],
+      "meanings": [
+        "really like",
+        "love"
+      ],
+      "hint": "stronger than suki",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "ラーメン が だいすき です。",
+        "jaKanji": "ラーメンが大好きです。",
+        "romaji": "Rāmen ga daisuki desu.",
+        "en": "I really like ramen."
+      },
+      "id": "w-muwpa2k2",
+      "addedAt": 1791292458098,
+      "audio": "voices/w-muwpa2k2.mp3",
+      "exampleAudio": "voices/w-muwpa2k2-ex.mp3"
+    },
+    {
+      "kana": "あまり",
+      "kanji": "",
+      "romaji": "amari",
+      "kanaAlts": [],
+      "meanings": [
+        "not really",
+        "not very"
+      ],
+      "hint": "used with a negative",
+      "note": "Pairs with a negative: amari suki ja nai desu",
+      "source": "11",
+      "example": {
+        "ja": "あまり すき じゃ ない です。",
+        "jaKanji": "あまり好きじゃないです。",
+        "romaji": "Amari suki ja nai desu.",
+        "en": "I don't really like it."
+      },
+      "id": "w-muwpa2k3",
+      "addedAt": 1791292458099,
+      "audio": "voices/w-muwpa2k3.mp3",
+      "exampleAudio": "voices/w-muwpa2k3-ex.mp3"
+    },
+    {
+      "kana": "とても",
+      "kanji": "",
+      "romaji": "totemo",
+      "kanaAlts": [],
+      "meanings": [
+        "very"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "とても おいしい です。",
+        "jaKanji": "とてもおいしいです。",
+        "romaji": "Totemo oishii desu.",
+        "en": "It is very tasty."
+      },
+      "id": "w-muwpa2k4",
+      "addedAt": 1791292458100,
+      "audio": "voices/w-muwpa2k4.mp3",
+      "exampleAudio": "voices/w-muwpa2k4-ex.mp3"
+    },
+    {
+      "kana": "おんがく",
+      "kanji": "音楽",
+      "romaji": "ongaku",
+      "kanaAlts": [],
+      "meanings": [
+        "music"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "おんがく が すき です か。",
+        "jaKanji": "音楽が好きですか。",
+        "romaji": "Ongaku ga suki desu ka.",
+        "en": "Do you like music?"
+      },
+      "id": "w-muwpa2k5",
+      "addedAt": 1791292458101,
+      "audio": "voices/w-muwpa2k5.mp3",
+      "exampleAudio": "voices/w-muwpa2k5-ex.mp3"
+    },
+    {
+      "kana": "えいが",
+      "kanji": "映画",
+      "romaji": "eiga",
+      "kanaAlts": [],
+      "meanings": [
+        "movie",
+        "film"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "えいが が すき です。",
+        "jaKanji": "映画が好きです。",
+        "romaji": "Eiga ga suki desu.",
+        "en": "I like movies."
+      },
+      "id": "w-muwpa2k6",
+      "addedAt": 1791292458102,
+      "audio": "voices/w-muwpa2k6.mp3",
+      "exampleAudio": "voices/w-muwpa2k6-ex.mp3"
+    },
+    {
+      "kana": "ほん",
+      "kanji": "本",
+      "romaji": "hon",
+      "kanaAlts": [],
+      "meanings": [
+        "book"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "ほん を よみます。",
+        "jaKanji": "本を読みます。",
+        "romaji": "Hon o yomimasu.",
+        "en": "I read books."
+      },
+      "id": "w-muwpa2k7",
+      "addedAt": 1791292458103,
+      "audio": "voices/w-muwpa2k7.mp3",
+      "exampleAudio": "voices/w-muwpa2k7-ex.mp3"
+    },
+    {
+      "kana": "まんが",
+      "kanji": "漫画",
+      "romaji": "manga",
+      "kanaAlts": [],
+      "meanings": [
+        "manga",
+        "comics"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "まんが が だいすき です。",
+        "jaKanji": "漫画が大好きです。",
+        "romaji": "Manga ga daisuki desu.",
+        "en": "I really like manga."
+      },
+      "id": "w-muwpa2k8",
+      "addedAt": 1791292458104,
+      "audio": "voices/w-muwpa2k8.mp3",
+      "exampleAudio": "voices/w-muwpa2k8-ex.mp3"
+    },
+    {
+      "kana": "スポーツ",
+      "kanji": "",
+      "romaji": "supōtsu",
+      "kanaAlts": [],
+      "meanings": [
+        "sports"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "スポーツ が すき です か。",
+        "jaKanji": "スポーツが好きですか。",
+        "romaji": "Supōtsu ga suki desu ka.",
+        "en": "Do you like sports?"
+      },
+      "id": "w-muwpa2k9",
+      "addedAt": 1791292458105,
+      "audio": "voices/w-muwpa2k9.mp3",
+      "exampleAudio": "voices/w-muwpa2k9-ex.mp3"
+    },
+    {
+      "kana": "りょこう",
+      "kanji": "旅行",
+      "romaji": "ryokō",
+      "kanaAlts": [],
+      "meanings": [
+        "travel",
+        "trip"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "りょこう が すき です。",
+        "jaKanji": "旅行が好きです。",
+        "romaji": "Ryokō ga suki desu.",
+        "en": "I like travelling."
+      },
+      "id": "w-muwpa2ka",
+      "addedAt": 1791292458106,
+      "audio": "voices/w-muwpa2ka.mp3",
+      "exampleAudio": "voices/w-muwpa2ka-ex.mp3"
+    },
+    {
+      "kana": "にほんりょうり",
+      "kanji": "日本料理",
+      "romaji": "nihon ryōri",
+      "kanaAlts": [],
+      "meanings": [
+        "Japanese food",
+        "Japanese cooking"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "にほんりょうり は おいしい です。",
+        "jaKanji": "日本料理はおいしいです。",
+        "romaji": "Nihon ryōri wa oishii desu.",
+        "en": "Japanese food is delicious."
+      },
+      "id": "w-muwpa2kb",
+      "addedAt": 1791292458107,
+      "audio": "voices/w-muwpa2kb.mp3",
+      "exampleAudio": "voices/w-muwpa2kb-ex.mp3"
+    },
+    {
+      "kana": "カラオケ",
+      "kanji": "",
+      "romaji": "karaoke",
+      "kanaAlts": [],
+      "meanings": [
+        "karaoke"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "カラオケ が すき です。",
+        "jaKanji": "カラオケが好きです。",
+        "romaji": "Karaoke ga suki desu.",
+        "en": "I like karaoke."
+      },
+      "id": "w-muwpa2kc",
+      "addedAt": 1791292458108,
+      "audio": "voices/w-muwpa2kc.mp3",
+      "exampleAudio": "voices/w-muwpa2kc-ex.mp3"
+    },
+    {
+      "kana": "ゲーム",
+      "kanji": "",
+      "romaji": "gēmu",
+      "kanaAlts": [],
+      "meanings": [
+        "game",
+        "video game"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "ゲーム が すき です。",
+        "jaKanji": "ゲームが好きです。",
+        "romaji": "Gēmu ga suki desu.",
+        "en": "I like games."
+      },
+      "id": "w-muwpa2kd",
+      "addedAt": 1791292458109,
+      "audio": "voices/w-muwpa2kd.mp3",
+      "exampleAudio": "voices/w-muwpa2kd-ex.mp3"
+    },
+    {
+      "kana": "サッカー",
+      "kanji": "",
+      "romaji": "sakkā",
+      "kanaAlts": [],
+      "meanings": [
+        "soccer",
+        "football"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "サッカー が すき です か。",
+        "jaKanji": "サッカーが好きですか。",
+        "romaji": "Sakkā ga suki desu ka.",
+        "en": "Do you like football?"
+      },
+      "id": "w-muwpa2ke",
+      "addedAt": 1791292458110,
+      "audio": "voices/w-muwpa2ke.mp3",
+      "exampleAudio": "voices/w-muwpa2ke-ex.mp3"
+    },
+    {
+      "kana": "やきゅう",
+      "kanji": "野球",
+      "romaji": "yakyū",
+      "kanaAlts": [],
+      "meanings": [
+        "baseball"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "やきゅう は すき じゃ ない です。",
+        "jaKanji": "野球は好きじゃないです。",
+        "romaji": "Yakyū wa suki ja nai desu.",
+        "en": "I don't like baseball."
+      },
+      "id": "w-muwpa2kf",
+      "addedAt": 1791292458111,
+      "audio": "voices/w-muwpa2kf.mp3",
+      "exampleAudio": "voices/w-muwpa2kf-ex.mp3"
+    },
+    {
+      "kana": "バドミントン",
+      "kanji": "",
+      "romaji": "badominton",
+      "kanaAlts": [],
+      "meanings": [
+        "badminton"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "バドミントン が すき です。",
+        "jaKanji": "バドミントンが好きです。",
+        "romaji": "Badominton ga suki desu.",
+        "en": "I like badminton."
+      },
+      "id": "w-muwpa2kg",
+      "addedAt": 1791292458112,
+      "audio": "voices/w-muwpa2kg.mp3",
+      "exampleAudio": "voices/w-muwpa2kg-ex.mp3"
+    },
+    {
+      "kana": "テニス",
+      "kanji": "",
+      "romaji": "tenisu",
+      "kanaAlts": [],
+      "meanings": [
+        "tennis"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "テニス が すき です。",
+        "jaKanji": "テニスが好きです。",
+        "romaji": "Tenisu ga suki desu.",
+        "en": "I like tennis."
+      },
+      "id": "w-muwpa2kh",
+      "addedAt": 1791292458113,
+      "audio": "voices/w-muwpa2kh.mp3",
+      "exampleAudio": "voices/w-muwpa2kh-ex.mp3"
+    },
+    {
+      "kana": "ヨガ",
+      "kanji": "",
+      "romaji": "yoga",
+      "kanaAlts": [],
+      "meanings": [
+        "yoga"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "ヨガ が すき です。",
+        "jaKanji": "ヨガが好きです。",
+        "romaji": "Yoga ga suki desu.",
+        "en": "I like yoga."
+      },
+      "id": "w-muwpa2ki",
+      "addedAt": 1791292458114,
+      "audio": "voices/w-muwpa2ki.mp3",
+      "exampleAudio": "voices/w-muwpa2ki-ex.mp3"
+    },
+    {
+      "kana": "ジョギング",
+      "kanji": "",
+      "romaji": "jogingu",
+      "kanaAlts": [],
+      "meanings": [
+        "jogging"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "11",
+      "example": {
+        "ja": "ジョギング が すき です。",
+        "jaKanji": "ジョギングが好きです。",
+        "romaji": "Jogingu ga suki desu.",
+        "en": "I like jogging."
+      },
+      "id": "w-muwpa2kj",
+      "addedAt": 1791292458115,
+      "audio": "voices/w-muwpa2kj.mp3",
+      "exampleAudio": "voices/w-muwpa2kj-ex.mp3"
+    },
+    {
+      "kana": "なっとう",
+      "kanji": "納豆",
+      "romaji": "nattō",
+      "kanaAlts": [],
+      "meanings": [
+        "fermented soybeans",
+        "natto"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "なっとう は あまり すき じゃ ない です。",
+        "jaKanji": "納豆はあまり好きじゃないです。",
+        "romaji": "Nattō wa amari suki ja nai desu.",
+        "en": "I don't really like natto."
+      },
+      "id": "w-muwpa2kk",
+      "addedAt": 1791292458116,
+      "audio": "voices/w-muwpa2kk.mp3",
+      "exampleAudio": "voices/w-muwpa2kk-ex.mp3"
+    },
+    {
+      "kana": "やきにく",
+      "kanji": "焼肉",
+      "romaji": "yakiniku",
+      "kanaAlts": [],
+      "meanings": [
+        "grilled meat",
+        "Japanese barbecue"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "やきにく が だいすき です。",
+        "jaKanji": "焼肉が大好きです。",
+        "romaji": "Yakiniku ga daisuki desu.",
+        "en": "I really like grilled meat."
+      },
+      "id": "w-muwpa2kl",
+      "addedAt": 1791292458117,
+      "audio": "voices/w-muwpa2kl.mp3",
+      "exampleAudio": "voices/w-muwpa2kl-ex.mp3"
+    },
+    {
+      "kana": "ハンバーガー",
+      "kanji": "",
+      "romaji": "hambāgā",
+      "kanaAlts": [],
+      "meanings": [
+        "hamburger"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "ハンバーガー が すき です。",
+        "jaKanji": "ハンバーガーが好きです。",
+        "romaji": "Hambāgā ga suki desu.",
+        "en": "I like hamburgers."
+      },
+      "id": "w-muwpa2km",
+      "addedAt": 1791292458118,
+      "audio": "voices/w-muwpa2km.mp3",
+      "exampleAudio": "voices/w-muwpa2km-ex.mp3"
+    },
+    {
+      "kana": "からあげ",
+      "kanji": "唐揚げ",
+      "romaji": "karaage",
+      "kanaAlts": [],
+      "meanings": [
+        "fried chicken"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "からあげ は おいしい です。",
+        "jaKanji": "唐揚げはおいしいです。",
+        "romaji": "Karaage wa oishii desu.",
+        "en": "Fried chicken is delicious."
+      },
+      "id": "w-muwpa2kn",
+      "addedAt": 1791292458119,
+      "audio": "voices/w-muwpa2kn.mp3",
+      "exampleAudio": "voices/w-muwpa2kn-ex.mp3"
+    },
+    {
+      "kana": "ぎょうざ",
+      "kanji": "餃子",
+      "romaji": "gyōza",
+      "kanaAlts": [],
+      "meanings": [
+        "dumplings",
+        "potstickers"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "ぎょうざ が すき です。",
+        "jaKanji": "餃子が好きです。",
+        "romaji": "Gyōza ga suki desu.",
+        "en": "I like dumplings."
+      },
+      "id": "w-muwpa2ko",
+      "addedAt": 1791292458120,
+      "audio": "voices/w-muwpa2ko.mp3",
+      "exampleAudio": "voices/w-muwpa2ko-ex.mp3"
+    },
+    {
+      "kana": "とうふ",
+      "kanji": "豆腐",
+      "romaji": "tōfu",
+      "kanaAlts": [],
+      "meanings": [
+        "tofu"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "とうふ は おいしい です。",
+        "jaKanji": "豆腐はおいしいです。",
+        "romaji": "Tōfu wa oishii desu.",
+        "en": "Tofu is tasty."
+      },
+      "id": "w-muwpa2kp",
+      "addedAt": 1791292458121,
+      "audio": "voices/w-muwpa2kp.mp3",
+      "exampleAudio": "voices/w-muwpa2kp-ex.mp3"
+    },
+    {
+      "kana": "さしみ",
+      "kanji": "刺身",
+      "romaji": "sashimi",
+      "kanaAlts": [],
+      "meanings": [
+        "sashimi",
+        "raw fish"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "さしみ が すき です か。",
+        "jaKanji": "刺身が好きですか。",
+        "romaji": "Sashimi ga suki desu ka.",
+        "en": "Do you like sashimi?"
+      },
+      "id": "w-muwpa2kq",
+      "addedAt": 1791292458122,
+      "audio": "voices/w-muwpa2kq.mp3",
+      "exampleAudio": "voices/w-muwpa2kq-ex.mp3"
+    },
+    {
+      "kana": "てんぷら",
+      "kanji": "天ぷら",
+      "romaji": "tempura",
+      "kanaAlts": [],
+      "meanings": [
+        "tempura"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "てんぷら が すき です。",
+        "jaKanji": "天ぷらが好きです。",
+        "romaji": "Tempura ga suki desu.",
+        "en": "I like tempura."
+      },
+      "id": "w-muwpa2kr",
+      "addedAt": 1791292458123,
+      "audio": "voices/w-muwpa2kr.mp3",
+      "exampleAudio": "voices/w-muwpa2kr-ex.mp3"
+    },
+    {
+      "kana": "ラーメン",
+      "kanji": "",
+      "romaji": "rāmen",
+      "kanaAlts": [],
+      "meanings": [
+        "ramen"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "ラーメン は おいしい です。",
+        "jaKanji": "ラーメンはおいしいです。",
+        "romaji": "Rāmen wa oishii desu.",
+        "en": "Ramen is delicious."
+      },
+      "id": "w-muwpa2ks",
+      "addedAt": 1791292458124,
+      "audio": "voices/w-muwpa2ks.mp3",
+      "exampleAudio": "voices/w-muwpa2ks-ex.mp3"
+    },
+    {
+      "kana": "うどん",
+      "kanji": "",
+      "romaji": "udon",
+      "kanaAlts": [],
+      "meanings": [
+        "udon",
+        "thick wheat noodles"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "うどん が すき です。",
+        "jaKanji": "うどんが好きです。",
+        "romaji": "Udon ga suki desu.",
+        "en": "I like udon."
+      },
+      "id": "w-muwpa2kt",
+      "addedAt": 1791292458125,
+      "audio": "voices/w-muwpa2kt.mp3",
+      "exampleAudio": "voices/w-muwpa2kt-ex.mp3"
+    },
+    {
+      "kana": "サラダ",
+      "kanji": "",
+      "romaji": "sarada",
+      "kanaAlts": [],
+      "meanings": [
+        "salad"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "サラダ も すき です。",
+        "jaKanji": "サラダも好きです。",
+        "romaji": "Sarada mo suki desu.",
+        "en": "I like salad too."
+      },
+      "id": "w-muwpa2ku",
+      "addedAt": 1791292458126,
+      "audio": "voices/w-muwpa2ku.mp3",
+      "exampleAudio": "voices/w-muwpa2ku-ex.mp3"
+    },
+    {
+      "kana": "みず",
+      "kanji": "水",
+      "romaji": "mizu",
+      "kanaAlts": [],
+      "meanings": [
+        "water"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "みず を ください。",
+        "jaKanji": "水をください。",
+        "romaji": "Mizu o kudasai.",
+        "en": "Water, please."
+      },
+      "id": "w-muwpa2kv",
+      "addedAt": 1791292458127,
+      "audio": "voices/w-muwpa2kv.mp3",
+      "exampleAudio": "voices/w-muwpa2kv-ex.mp3"
+    },
+    {
+      "kana": "おちゃ",
+      "kanji": "お茶",
+      "romaji": "ocha",
+      "kanaAlts": [],
+      "meanings": [
+        "tea",
+        "green tea"
+      ],
+      "hint": "the everyday word for tea",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "おちゃ が すき です。",
+        "jaKanji": "お茶が好きです。",
+        "romaji": "Ocha ga suki desu.",
+        "en": "I like tea."
+      },
+      "id": "w-muwpa2kw",
+      "addedAt": 1791292458128,
+      "audio": "voices/w-muwpa2kw.mp3",
+      "exampleAudio": "voices/w-muwpa2kw-ex.mp3"
+    },
+    {
+      "kana": "りょくちゃ",
+      "kanji": "緑茶",
+      "romaji": "ryokucha",
+      "kanaAlts": [],
+      "meanings": [
+        "green tea"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "りょくちゃ は おいしい です。",
+        "jaKanji": "緑茶はおいしいです。",
+        "romaji": "Ryokucha wa oishii desu.",
+        "en": "Green tea is tasty."
+      },
+      "id": "w-muwpa2kx",
+      "addedAt": 1791292458129,
+      "audio": "voices/w-muwpa2kx.mp3",
+      "exampleAudio": "voices/w-muwpa2kx-ex.mp3"
+    },
+    {
+      "kana": "こうちゃ",
+      "kanji": "紅茶",
+      "romaji": "kōcha",
+      "kanaAlts": [],
+      "meanings": [
+        "black tea"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "こうちゃ を ください。",
+        "jaKanji": "紅茶をください。",
+        "romaji": "Kōcha o kudasai.",
+        "en": "Black tea, please."
+      },
+      "id": "w-muwpa2ky",
+      "addedAt": 1791292458130,
+      "audio": "voices/w-muwpa2ky.mp3",
+      "exampleAudio": "voices/w-muwpa2ky-ex.mp3"
+    },
+    {
+      "kana": "むぎちゃ",
+      "kanji": "麦茶",
+      "romaji": "mugicha",
+      "kanaAlts": [],
+      "meanings": [
+        "barley tea"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "むぎちゃ が すき です。",
+        "jaKanji": "麦茶が好きです。",
+        "romaji": "Mugicha ga suki desu.",
+        "en": "I like barley tea."
+      },
+      "id": "w-muwpa2kz",
+      "addedAt": 1791292458131,
+      "audio": "voices/w-muwpa2kz.mp3",
+      "exampleAudio": "voices/w-muwpa2kz-ex.mp3"
+    },
+    {
+      "kana": "コーヒー",
+      "kanji": "",
+      "romaji": "kōhī",
+      "kanaAlts": [],
+      "meanings": [
+        "coffee"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "コーヒー を ください。",
+        "jaKanji": "コーヒーをください。",
+        "romaji": "Kōhī o kudasai.",
+        "en": "Coffee, please."
+      },
+      "id": "w-muwpa2l0",
+      "addedAt": 1791292458132,
+      "audio": "voices/w-muwpa2l0.mp3",
+      "exampleAudio": "voices/w-muwpa2l0-ex.mp3"
+    },
+    {
+      "kana": "ぎゅうにゅう",
+      "kanji": "牛乳",
+      "romaji": "gyūnyū",
+      "kanaAlts": [],
+      "meanings": [
+        "milk"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "ぎゅうにゅう が すき です。",
+        "jaKanji": "牛乳が好きです。",
+        "romaji": "Gyūnyū ga suki desu.",
+        "en": "I like milk."
+      },
+      "id": "w-muwpa2l1",
+      "addedAt": 1791292458133,
+      "audio": "voices/w-muwpa2l1.mp3",
+      "exampleAudio": "voices/w-muwpa2l1-ex.mp3"
+    },
+    {
+      "kana": "にほんしゅ",
+      "kanji": "日本酒",
+      "romaji": "nihonshu",
+      "kanaAlts": [],
+      "meanings": [
+        "sake",
+        "Japanese rice wine"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "にほんしゅ は あまり すき じゃ ない です。",
+        "jaKanji": "日本酒はあまり好きじゃないです。",
+        "romaji": "Nihonshu wa amari suki ja nai desu.",
+        "en": "I don't really like sake."
+      },
+      "id": "w-muwpa2l2",
+      "addedAt": 1791292458134,
+      "audio": "voices/w-muwpa2l2.mp3",
+      "exampleAudio": "voices/w-muwpa2l2-ex.mp3"
+    },
+    {
+      "kana": "カクテル",
+      "kanji": "",
+      "romaji": "kakuteru",
+      "kanaAlts": [],
+      "meanings": [
+        "cocktail"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "カクテル が すき です。",
+        "jaKanji": "カクテルが好きです。",
+        "romaji": "Kakuteru ga suki desu.",
+        "en": "I like cocktails."
+      },
+      "id": "w-muwpa2l3",
+      "addedAt": 1791292458135,
+      "audio": "voices/w-muwpa2l3.mp3",
+      "exampleAudio": "voices/w-muwpa2l3-ex.mp3"
+    },
+    {
+      "kana": "ビール",
+      "kanji": "",
+      "romaji": "bīru",
+      "kanaAlts": [],
+      "meanings": [
+        "beer"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "12",
+      "example": {
+        "ja": "ビール が すき です。",
+        "jaKanji": "ビールが好きです。",
+        "romaji": "Bīru ga suki desu.",
+        "en": "I like beer."
+      },
+      "id": "w-muwpa2l4",
+      "addedAt": 1791292458136,
+      "audio": "voices/w-muwpa2l4.mp3",
+      "exampleAudio": "voices/w-muwpa2l4-ex.mp3"
+    },
+    {
+      "kana": "も",
+      "kanji": "",
+      "romaji": "mo",
+      "kanaAlts": [],
+      "meanings": [
+        "too",
+        "also"
+      ],
+      "hint": "particle",
+      "note": "Replaces wa or ga: watashi mo suki desu",
+      "source": "12",
+      "example": {
+        "ja": "わたし も すき です。",
+        "jaKanji": "私も好きです。",
+        "romaji": "Watashi mo suki desu.",
+        "en": "I like it too."
+      },
+      "id": "w-muwpa2l5",
+      "addedAt": 1791292458137,
+      "audio": "voices/w-muwpa2l5.mp3",
+      "exampleAudio": "voices/w-muwpa2l5-ex.mp3"
+    },
+    {
+      "kana": "りょうり",
+      "kanji": "料理",
+      "romaji": "ryōri",
+      "kanaAlts": [],
+      "meanings": [
+        "cooking",
+        "food",
+        "dish"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "13",
+      "example": {
+        "ja": "りょうり が すき です。",
+        "jaKanji": "料理が好きです。",
+        "romaji": "Ryōri ga suki desu.",
+        "en": "I like cooking."
+      },
+      "id": "w-muwpa2l6",
+      "addedAt": 1791292458138,
+      "audio": "voices/w-muwpa2l6.mp3",
+      "exampleAudio": "voices/w-muwpa2l6-ex.mp3"
+    },
+    {
+      "kana": "すし",
+      "kanji": "寿司",
+      "romaji": "sushi",
+      "kanaAlts": [],
+      "meanings": [
+        "sushi"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "13",
+      "example": {
+        "ja": "すし が だいすき です。",
+        "jaKanji": "寿司が大好きです。",
+        "romaji": "Sushi ga daisuki desu.",
+        "en": "I really like sushi."
+      },
+      "id": "w-muwpa2l7",
+      "addedAt": 1791292458139,
+      "audio": "voices/w-muwpa2l7.mp3",
+      "exampleAudio": "voices/w-muwpa2l7-ex.mp3"
+    },
+    {
+      "kana": "でも",
+      "kanji": "",
+      "romaji": "demo",
+      "kanaAlts": [],
+      "meanings": [
+        "but",
+        "however"
+      ],
+      "hint": "at the start of a sentence",
+      "note": "",
+      "source": "13",
+      "example": {
+        "ja": "でも ビール は すき です。",
+        "jaKanji": "でもビールは好きです。",
+        "romaji": "Demo bīru wa suki desu.",
+        "en": "But I do like beer."
+      },
+      "id": "w-muwpa2l8",
+      "addedAt": 1791292458140,
+      "audio": "voices/w-muwpa2l8.mp3",
+      "exampleAudio": "voices/w-muwpa2l8-ex.mp3"
+    },
+    {
+      "kana": "おいしい",
+      "kanji": "",
+      "romaji": "oishii",
+      "kanaAlts": [],
+      "meanings": [
+        "delicious",
+        "tasty",
+        "good"
+      ],
+      "hint": "",
+      "note": "Oishiku nai desu is the negative",
+      "source": "14",
+      "example": {
+        "ja": "にほんりょうり は おいしい です か。",
+        "jaKanji": "日本料理はおいしいですか。",
+        "romaji": "Nihon ryōri wa oishii desu ka.",
+        "en": "Is Japanese food good?"
+      },
+      "id": "w-muwpa2l9",
+      "addedAt": 1791292458141,
+      "audio": "voices/w-muwpa2l9.mp3",
+      "exampleAudio": "voices/w-muwpa2l9-ex.mp3"
+    },
+    {
+      "kana": "おいしくないです",
+      "kanji": "",
+      "romaji": "oishiku nai desu",
+      "kanaAlts": [],
+      "meanings": [
+        "it is not tasty",
+        "it is not good"
+      ],
+      "hint": "negative of oishii",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "うーん、あまり おいしく ない です。",
+        "jaKanji": "うーん、あまりおいしくないです。",
+        "romaji": "Ūn, amari oishiku nai desu.",
+        "en": "Hmm, it is not very tasty."
+      },
+      "id": "w-muwpa2la",
+      "addedAt": 1791292458142,
+      "audio": "voices/w-muwpa2la.mp3",
+      "exampleAudio": "voices/w-muwpa2la-ex.mp3"
+    },
+    {
+      "kana": "すきやき",
+      "kanji": "すき焼き",
+      "romaji": "sukiyaki",
+      "kanaAlts": [],
+      "meanings": [
+        "sukiyaki"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "すきやき が すき です。",
+        "jaKanji": "すき焼きが好きです。",
+        "romaji": "Sukiyaki ga suki desu.",
+        "en": "I like sukiyaki."
+      },
+      "id": "w-muwpa2lb",
+      "addedAt": 1791292458143,
+      "audio": "voices/w-muwpa2lb.mp3",
+      "exampleAudio": "voices/w-muwpa2lb-ex.mp3"
+    },
+    {
+      "kana": "にく",
+      "kanji": "肉",
+      "romaji": "niku",
+      "kanaAlts": [],
+      "meanings": [
+        "meat"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "にく が すき です。",
+        "jaKanji": "肉が好きです。",
+        "romaji": "Niku ga suki desu.",
+        "en": "I like meat."
+      },
+      "id": "w-muwpa2lc",
+      "addedAt": 1791292458144,
+      "audio": "voices/w-muwpa2lc.mp3",
+      "exampleAudio": "voices/w-muwpa2lc-ex.mp3"
+    },
+    {
+      "kana": "かつどん",
+      "kanji": "カツ丼",
+      "romaji": "katsudon",
+      "kanaAlts": [],
+      "meanings": [
+        "katsudon",
+        "pork cutlet rice bowl"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "かつどん は おいしい です。",
+        "jaKanji": "カツ丼はおいしいです。",
+        "romaji": "Katsudon wa oishii desu.",
+        "en": "Katsudon is delicious."
+      },
+      "id": "w-muwpa2ld",
+      "addedAt": 1791292458145,
+      "audio": "voices/w-muwpa2ld.mp3",
+      "exampleAudio": "voices/w-muwpa2ld-ex.mp3"
+    },
+    {
+      "kana": "おこのみやき",
+      "kanji": "お好み焼き",
+      "romaji": "okonomiyaki",
+      "kanaAlts": [],
+      "meanings": [
+        "okonomiyaki",
+        "savoury pancake"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "おこのみやき が だいすき です。",
+        "jaKanji": "お好み焼きが大好きです。",
+        "romaji": "Okonomiyaki ga daisuki desu.",
+        "en": "I really like okonomiyaki."
+      },
+      "id": "w-muwpa2le",
+      "addedAt": 1791292458146,
+      "audio": "voices/w-muwpa2le.mp3",
+      "exampleAudio": "voices/w-muwpa2le-ex.mp3"
+    },
+    {
+      "kana": "さかな",
+      "kanji": "魚",
+      "romaji": "sakana",
+      "kanaAlts": [],
+      "meanings": [
+        "fish"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "さかな が すき です。",
+        "jaKanji": "魚が好きです。",
+        "romaji": "Sakana ga suki desu.",
+        "en": "I like fish."
+      },
+      "id": "w-muwpa2lf",
+      "addedAt": 1791292458147,
+      "audio": "voices/w-muwpa2lf.mp3",
+      "exampleAudio": "voices/w-muwpa2lf-ex.mp3"
+    },
+    {
+      "kana": "ぶたにく",
+      "kanji": "豚肉",
+      "romaji": "butaniku",
+      "kanaAlts": [],
+      "meanings": [
+        "pork"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "ぶたにく は おいしい です。",
+        "jaKanji": "豚肉はおいしいです。",
+        "romaji": "Butaniku wa oishii desu.",
+        "en": "Pork is tasty."
+      },
+      "id": "w-muwpa2lg",
+      "addedAt": 1791292458148,
+      "audio": "voices/w-muwpa2lg.mp3",
+      "exampleAudio": "voices/w-muwpa2lg-ex.mp3"
+    },
+    {
+      "kana": "そば",
+      "kanji": "",
+      "romaji": "soba",
+      "kanaAlts": [],
+      "meanings": [
+        "soba",
+        "buckwheat noodles"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "そば が すき です。",
+        "jaKanji": "そばが好きです。",
+        "romaji": "Soba ga suki desu.",
+        "en": "I like soba."
+      },
+      "id": "w-muwpa2lh",
+      "addedAt": 1791292458149,
+      "audio": "voices/w-muwpa2lh.mp3",
+      "exampleAudio": "voices/w-muwpa2lh-ex.mp3"
+    },
+    {
+      "kana": "しゃけ",
+      "kanji": "鮭",
+      "romaji": "shake",
+      "kanaAlts": [],
+      "meanings": [
+        "salmon"
+      ],
+      "hint": "",
+      "note": "Also read sake",
+      "source": "14",
+      "example": {
+        "ja": "しゃけ が すき です。",
+        "jaKanji": "鮭が好きです。",
+        "romaji": "Shake ga suki desu.",
+        "en": "I like salmon."
+      },
+      "id": "w-muwpa2li",
+      "addedAt": 1791292458150,
+      "audio": "voices/w-muwpa2li.mp3",
+      "exampleAudio": "voices/w-muwpa2li-ex.mp3"
+    },
+    {
+      "kana": "とりにく",
+      "kanji": "鶏肉",
+      "romaji": "toriniku",
+      "kanaAlts": [],
+      "meanings": [
+        "chicken"
+      ],
+      "hint": "the meat",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "とりにく を ください。",
+        "jaKanji": "鶏肉をください。",
+        "romaji": "Toriniku o kudasai.",
+        "en": "Chicken, please."
+      },
+      "id": "w-muwpa2lj",
+      "addedAt": 1791292458151,
+      "audio": "voices/w-muwpa2lj.mp3",
+      "exampleAudio": "voices/w-muwpa2lj-ex.mp3"
+    },
+    {
+      "kana": "みそかつ",
+      "kanji": "味噌カツ",
+      "romaji": "misokatsu",
+      "kanaAlts": [],
+      "meanings": [
+        "miso katsu",
+        "pork cutlet with miso sauce"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "みそかつ は おいしい です。",
+        "jaKanji": "味噌カツはおいしいです。",
+        "romaji": "Misokatsu wa oishii desu.",
+        "en": "Miso katsu is delicious."
+      },
+      "id": "w-muwpa2lk",
+      "addedAt": 1791292458152,
+      "audio": "voices/w-muwpa2lk.mp3",
+      "exampleAudio": "voices/w-muwpa2lk-ex.mp3"
+    },
+    {
+      "kana": "たこ",
+      "kanji": "",
+      "romaji": "tako",
+      "kanaAlts": [],
+      "meanings": [
+        "octopus"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "たこ が すき です か。",
+        "jaKanji": "たこが好きですか。",
+        "romaji": "Tako ga suki desu ka.",
+        "en": "Do you like octopus?"
+      },
+      "id": "w-muwpa2ll",
+      "addedAt": 1791292458153,
+      "audio": "voices/w-muwpa2ll.mp3",
+      "exampleAudio": "voices/w-muwpa2ll-ex.mp3"
+    },
+    {
+      "kana": "てまきずし",
+      "kanji": "手巻き寿司",
+      "romaji": "temakizushi",
+      "kanaAlts": [],
+      "meanings": [
+        "hand-rolled sushi"
+      ],
+      "hint": "",
+      "note": "Rolled by hand in nori",
+      "source": "14",
+      "example": {
+        "ja": "てまきずし が すき です。",
+        "jaKanji": "手巻き寿司が好きです。",
+        "romaji": "Temakizushi ga suki desu.",
+        "en": "I like hand-rolled sushi."
+      },
+      "id": "w-muwpa2lm",
+      "addedAt": 1791292458154,
+      "audio": "voices/w-muwpa2lm.mp3",
+      "exampleAudio": "voices/w-muwpa2lm-ex.mp3"
+    },
+    {
+      "kana": "えび",
+      "kanji": "海老",
+      "romaji": "ebi",
+      "kanaAlts": [],
+      "meanings": [
+        "shrimp",
+        "prawn"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "えび が だいすき です。",
+        "jaKanji": "海老が大好きです。",
+        "romaji": "Ebi ga daisuki desu.",
+        "en": "I really like prawns."
+      },
+      "id": "w-muwpa2ln",
+      "addedAt": 1791292458155,
+      "audio": "voices/w-muwpa2ln.mp3",
+      "exampleAudio": "voices/w-muwpa2ln-ex.mp3"
+    },
+    {
+      "kana": "おなべ",
+      "kanji": "お鍋",
+      "romaji": "onabe",
+      "kanaAlts": [],
+      "meanings": [
+        "hot pot"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "おなべ は おいしい です。",
+        "jaKanji": "お鍋はおいしいです。",
+        "romaji": "Onabe wa oishii desu.",
+        "en": "Hot pot is delicious."
+      },
+      "id": "w-muwpa2lo",
+      "addedAt": 1791292458156,
+      "audio": "voices/w-muwpa2lo.mp3",
+      "exampleAudio": "voices/w-muwpa2lo-ex.mp3"
+    },
+    {
+      "kana": "たまご",
+      "kanji": "卵",
+      "romaji": "tamago",
+      "kanaAlts": [],
+      "meanings": [
+        "egg"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "14",
+      "example": {
+        "ja": "たまご が すき です。",
+        "jaKanji": "卵が好きです。",
+        "romaji": "Tamago ga suki desu.",
+        "en": "I like eggs."
+      },
+      "id": "w-muwpa2lp",
+      "addedAt": 1791292458157,
+      "audio": "voices/w-muwpa2lp.mp3",
+      "exampleAudio": "voices/w-muwpa2lp-ex.mp3"
+    },
+    {
+      "kana": "いいですね",
+      "kanji": "",
+      "romaji": "ii desu ne",
+      "kanaAlts": [],
+      "meanings": [
+        "sounds great",
+        "that's nice",
+        "good"
+      ],
+      "hint": "",
+      "note": "",
+      "source": "15",
+      "example": {
+        "ja": "いい です ね。",
+        "jaKanji": "いいですね。",
+        "romaji": "Ii desu ne.",
+        "en": "Sounds great."
+      },
+      "id": "w-muwpa2lq",
+      "addedAt": 1791292458158,
+      "audio": "voices/w-muwpa2lq.mp3",
+      "exampleAudio": "voices/w-muwpa2lq-ex.mp3"
     }
   ]
 }

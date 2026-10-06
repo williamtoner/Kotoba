@@ -1,0 +1,45 @@
+name: Record voices
+
+# Records a Japanese voice clip for every word and example sentence that
+# lacks one, then commits the clips. Runs when the word list changes, every
+# morning as a safety net, and on demand.
+on:
+  push:
+    branches: [main]
+    paths: ["data/words.json"]
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voices
+  cancel-in-progress: false
+
+jobs:
+  voices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts
+      - name: Record missing clips
+        run: python3 pipeline/voices.py
+      - name: Commit clips
+        run: |
+          git config user.name "kotoba-voices[bot]"
+          git config user.email "kotoba-voices@users.noreply.github.com"
+          git add app/voices data/words.json
+          if git diff --cached --quiet; then
+            echo "Nothing to record."
+          else
+            git commit -m "voices: record new clips [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
